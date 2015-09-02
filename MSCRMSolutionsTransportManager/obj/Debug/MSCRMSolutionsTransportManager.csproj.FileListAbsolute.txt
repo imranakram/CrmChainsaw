@@ -1,0 +1,12 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.XML
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Debug\MSCRMSolutionsTransportManager.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Debug\MSCRMSolutionsTransportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Debug\MSCRMSolutionsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.XML
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Debug\MSCRMSolutionsTransportManager.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Debug\MSCRMSolutionsTransportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Debug\MSCRMSolutionsTransportManager.pdb

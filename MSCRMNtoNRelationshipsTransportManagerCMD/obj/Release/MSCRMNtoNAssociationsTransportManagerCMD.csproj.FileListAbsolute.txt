@@ -1,0 +1,13 @@
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\MSCRMNtoNAssociationsTransportManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\MSCRMNtoNAssociationsTransportManagerCMD.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\MSCRMNtoNAssociationsTransportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\MSCRMNtoNAssociationsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\bin\Release\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\obj\Release\MSCRMNtoNAssociationsTransportManagerCMD.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\obj\Release\MSCRMNtoNAssociationsTransportManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManagerCMD\obj\Release\MSCRMNtoNAssociationsTransportManagerCMD.pdb

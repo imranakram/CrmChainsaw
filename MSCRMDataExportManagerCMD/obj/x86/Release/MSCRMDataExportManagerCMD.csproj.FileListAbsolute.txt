@@ -1,0 +1,14 @@
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMDataExportManagerCMD.exe.config
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMDataExportManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMDataExportManagerCMD.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMDataExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMDataExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\bin\Release\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\obj\x86\Release\MSCRMDataExportManagerCMD.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\obj\x86\Release\MSCRMDataExportManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManagerCMD\obj\x86\Release\MSCRMDataExportManagerCMD.pdb

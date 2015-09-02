@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMWorkflowExecutionManager</name>
+    </assembly>
+    <members>
+        <member name="T:MSCRMToolKit.MSCRMWorkflow">
+            <summary>
+            Midcorosft Dynamics CRM Workflow
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMWorkflow.Name">
+            <summary>
+            Gets or sets the name of the Worklfow.
+            </summary>
+            <value>
+            The Workflow name.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMWorkflow.Id">
+            <summary>
+            Gets or sets the identifier of the Workflow.
+            </summary>
+            <value>
+            The Workflow identifier.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMWorkflowExecutionManager">
+            <summary>
+            Workflows Execution Manager class extending MSCRMToolKitProfileManager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMWorkflowExecutionManager.Profiles">
+            <summary>
+            The Workflow Execution profiles
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMWorkflowExecutionManager.Folder">
+            <summary>
+            The workspace folder
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMWorkflowExecutionManager.ConfigurationFileName">
+            <summary>
+            The configuration file name
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.MSCRMWorkflowExecutionManager"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.CreateProfile(MSCRMToolKit.MSCRMWorkflowExecutionProfile)">
+            <summary>
+            Creates the Workflow Execution profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.UpdateProfile(MSCRMToolKit.MSCRMWorkflowExecutionProfile)">
+            <summary>
+            Updates the Workflow Execution profile.
+            </summary>
+            <param name="profile">The Workflow Execution profile.</param>
+            <exception cref="T:System.Exception">Data Export Profile Update failed. The Data Export Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.DeleteProfile(MSCRMToolKit.MSCRMWorkflowExecutionProfile)">
+            <summary>
+            Deletes the Workflow Execution profile.
+            </summary>
+            <param name="profile">The Workflow Execution profile.</param>
+            <exception cref="T:System.Exception">Workflow Execution Profile deletion failed. The Workflow Execution Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.GetProfile(System.String)">
+            <summary>
+            Gets the Workflow Execution profile.
+            </summary>
+            <param name="profileName">Name of the profile.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.RunProfile(MSCRMToolKit.MSCRMWorkflowExecutionProfile)">
+            <summary>
+            Runs the Workflow Execution profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.ReadProfiles">
+            <summary>
+            Reads the Workflow Execution profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.WriteProfiles">
+            <summary>
+            Writes the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.ReadWorkflows(System.String)">
+            <summary>
+            Reads the workflows.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMWorkflowExecutionManager.WriteWorkflows(System.String,System.Collections.Generic.List{MSCRMToolKit.MSCRMWorkflow})">
+            <summary>
+            Writes the workflows.
+            </summary>
+            <param name="sourceName">Name of the source.</param>
+            <param name="Workflows">The workflows.</param>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMWorkflowExecutionProfile">
+            <summary>
+            MSCRMWorkflowExecutionProfile class extending MSCRMToolKitProfile
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMWorkflowExecutionProfile.WorkflowId">
+            <summary>
+            Gets or sets the workflow identifier.
+            </summary>
+            <value>
+            The workflow identifier.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMWorkflowExecutionProfile.WorkflowName">
+            <summary>
+            Gets or sets the name of the workflow.
+            </summary>
+            <value>
+            The name of the workflow.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMWorkflowExecutionProfile.FetchXMLQuery">
+            <summary>
+            Gets or sets the fetch XML query.
+            </summary>
+            <value>
+            The fetch XML query.
+            </value>
+        </member>
+    </members>
+</doc>

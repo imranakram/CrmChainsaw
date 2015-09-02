@@ -1,0 +1,26 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMDataExportManager.XML
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMDataExportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMDataExportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\LogManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\Microsoft.Xrm.Sdk.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMConnectionsManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMToolkit.Framework.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMToolkit.Framework.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMToolkit.Framework.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\obj\Debug\MSCRMDataExportManager.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\obj\Debug\MSCRMDataExportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\obj\Debug\MSCRMDataExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMDataExportManager.XML
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMDataExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMDataExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\bin\Debug\MSCRMToolkit.Framework.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\obj\Debug\MSCRMDataExportManager.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\obj\Debug\MSCRMDataExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMDataExportManager\obj\Debug\MSCRMDataExportManager.pdb

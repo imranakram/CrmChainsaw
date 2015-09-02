@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMReferenceDataTransporterCMD.exe.config
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMReferenceDataTransporterCMD.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMReferenceDataTransporterCMD.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\obj\x86\Debug\MSCRMReferenceDataTransporterCMD.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\obj\x86\Debug\MSCRMReferenceDataTransporterCMD.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\obj\x86\Debug\MSCRMReferenceDataTransporterCMD.pdb

@@ -1,0 +1,110 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.exe.config
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\lib\LogManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\lib\Microsoft.IdentityModel.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.XML
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\LogManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\Microsoft.Xrm.Sdk.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMConnectionsManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMDataExportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolkit.Framework.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMTransportationProfilesManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManager.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMDataExportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMDataExportManager.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolkit.Framework.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolkit.Framework.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMTransportationProfilesManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMTransportationProfilesManager.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMWorkflowExecutionManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMWorkflowExecutionManager.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.About.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.AuditExport.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.AuditExportDetails.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.DataExport.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.DataExportReportViewer.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.EntitiesStructureExport.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.MSCRMToolKit.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.NtoNAssociationsTransporter.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.NtoNTransportReportViewer.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.NtoNTransportImportFailuresReportViewer.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.RecordsCounter.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.RecordsCounterFilterWizard.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.RecordsMapping.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.ReferenceDataTransporter.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.SetupIgnoredAttributes.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.TransportImportFailuresReportViewer.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.TransportReportViewer.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.DeploymentProperties.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.SolutionsTransporter.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.SolutionsImportJobsViewer.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.WorkflowExecution.resources
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.exe.config
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.XML
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\lib\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\lib\Microsoft.IdentityModel.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolKit.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\Microsoft.Xrm.Sdk.Deployment.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMDataExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMTransportationProfilesManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManager.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMDataExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMDataExportManager.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMSolutionsTransportManager.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMToolkit.Framework.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMTransportationProfilesManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMTransportationProfilesManager.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMWorkflowExecutionManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMWorkflowExecutionManager.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.About.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.AuditExport.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.AuditExportDetails.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.DataExport.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.DataExportReportViewer.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.EntitiesStructureExport.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.MSCRMToolKit.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.NtoNAssociationsTransporter.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.NtoNTransportReportViewer.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.NtoNTransportImportFailuresReportViewer.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.Properties.Resources.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.RecordsCounter.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.RecordsCounterFilterWizard.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.RecordsMapping.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.ReferenceDataTransporter.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.SetupIgnoredAttributes.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.TransportImportFailuresReportViewer.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.TransportReportViewer.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.DeploymentProperties.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.SolutionsTransporter.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.SolutionsImportJobsViewer.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.WorkflowExecution.resources
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\obj\x86\Debug\MSCRMToolKit.csproj.GenerateResource.Cache

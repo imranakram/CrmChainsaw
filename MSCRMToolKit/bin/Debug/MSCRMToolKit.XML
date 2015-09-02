@@ -1,0 +1,1808 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMToolKit</name>
+    </assembly>
+    <members>
+        <member name="T:MSCRMToolKit.About">
+            <summary>
+            About class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.About.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.About"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.About.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.About.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.About.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.AuditExport">
+            <summary>
+            Audit Export class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.cm">
+            <summary>
+            The Connections Manager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.currentProfile">
+            <summary>
+            The current profile
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.man">
+            <summary>
+            The MSCRM Audit Export Manager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.es">
+            <summary>
+            The Environment Audit Structure
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.SelectedEntityList">
+            <summary>
+            The selected entity list
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.selectedEntitiesInitialLoading">
+            <summary>
+            The selected entities initial loading
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.AuditType">
+            <summary>
+            The audit type
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.AuditExport"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.AuditExport_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the AuditExport control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.SaveProfile">
+            <summary>
+            Saves the profile.
+            </summary>
+            <returns>True or False if the profile was succesfuly saved.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxConnectionSource_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxConnectionSource control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxProfiles_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxProfiles control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.buttonLoadEntities_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the buttonLoadEntities control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.populateCheckedListBoxes">
+            <summary>
+            Populates the checked list boxes.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.displaySelectedEntities">
+            <summary>
+            Displays the selected entities.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.showAuditExportDetailsWizard(System.Object,System.EventArgs)">
+            <summary>
+            Shows the audit export details wizard.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.checkedListBoxEntities_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the checkedListBoxEntities control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.newToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the newToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.saveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the saveToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.exitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the exitToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.deleteProfileToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the deleteProfileToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxAuditTypeExport_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxAuditTypeExport control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxFormat_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxFormat control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxEncoding_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxEncoding control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.checkedListBoxUsers_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the checkedListBoxUsers control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.runProfileToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the runProfileToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxUsersSelector_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxUsersSelector control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxEntitiesSelector_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxEntitiesSelector control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxActionsSelector_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxActionsSelector control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxOperationsSelector_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxOperationsSelector control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.buttonOpenInExcel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the buttonOpenInExcel control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.checkedListBoxActions_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the checkedListBoxActions control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.checkedListBoxOperations_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the checkedListBoxOperations control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.viewLogToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the viewLogToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.logArchiveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the logArchiveToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.helpToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the helpToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.comboBoxAuditDate_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxAuditDate control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.CheckListBoxItem">
+            <summary>
+            Check List Box Item class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.CheckListBoxItem.Id">
+            <summary>
+            The identifier
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.CheckListBoxItem.Text">
+            <summary>
+            The text
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.CheckListBoxItem.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:MSCRMToolKit.ActionListBoxItem">
+            <summary>
+            Action List Box Item class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.ActionListBoxItem.Key">
+            <summary>
+            The key
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.ActionListBoxItem.Value">
+            <summary>
+            The value
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.ActionListBoxItem.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:MSCRMToolKit.EntityListBoxItem">
+            <summary>
+            Entity List Box Item class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.EntityListBoxItem.ObjectTypeCode">
+            <summary>
+            The object type code
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.EntityListBoxItem.Value">
+            <summary>
+            The value
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.EntityListBoxItem.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:MSCRMToolKit.ControlEnabled">
+            <summary>
+            Control Enabled class
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.ControlEnabled.Control">
+            <summary>
+            Gets or sets the control.
+            </summary>
+            <value>
+            The control.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.ControlEnabled.Enabled">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:MSCRMToolKit.ControlEnabled"/> is enabled.
+            </summary>
+            <value>
+              <c>true</c> if enabled; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.AuditExportDetails">
+            <summary>
+            AuditExportDetails class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExportDetails.#ctor(MSCRMToolKit.AuditExport,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.AuditExportDetails"/> class.
+            </summary>
+            <param name="au">The au.</param>
+            <param name="entity">The entity.</param>
+        </member>
+        <member name="F:MSCRMToolKit.AuditExportDetails.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExportDetails.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.AuditExportDetails.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.DataExport">
+            <summary>
+            DataExport form
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DataExport.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.DataExport"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.DataExport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DataExport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.DataExport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.DataExportReportViewer">
+            <summary>
+            DataExportReportViewer class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DataExportReportViewer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.DataExportReportViewer"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DataExportReportViewer.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.DataExportReportViewer"/> class.
+            </summary>
+            <param name="reportFileName">Name of the report file.</param>
+        </member>
+        <member name="F:MSCRMToolKit.DataExportReportViewer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DataExportReportViewer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.DataExportReportViewer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DiagramBuilder.GenerateDiagram(System.String,System.Collections.Generic.List{System.String},Microsoft.Xrm.Sdk.Messages.RetrieveAllEntitiesResponse,System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Main entry point for the application.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <param name="entities">The entities.</param>
+            <param name="response">The response.</param>
+            <param name="worker">The worker.</param>
+            <param name="e">The <see cref="T:System.ComponentModel.DoWorkEventArgs"/> instance containing the event data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.DiagramBuilder.BuildDiagram(System.Collections.Generic.List{System.String},System.String,System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Create a new page in a Visio file showing all the direct entity relationships participated in
+            by the passed-in array of entities.
+            </summary>
+            <param name="entities">Core entities for the diagram</param>
+            <param name="pageTitle">Page title</param>
+            <param name="worker">The worker.</param>
+            <param name="e">The <see cref="T:System.ComponentModel.DoWorkEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.DiagramBuilder.DrawRelationships(Microsoft.Xrm.Sdk.Metadata.EntityMetadata,Microsoft.Office.Interop.Visio.Shape,Microsoft.Xrm.Sdk.Metadata.RelationshipMetadataBase[],System.Boolean,System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Draw on a Visio page the entity relationships defined in the passed-in relationship collection.
+            </summary>
+            <param name="entity">Core entity</param>
+            <param name="rect">Shape representing the core entity</param>
+            <param name="relationshipCollection">Collection of entity relationships to draw</param>
+            <param name="areReferencingRelationships">Whether or not the core entity is the referencing entity in the relationship</param>
+            <param name="worker">The worker.</param>
+            <param name="e">The <see cref="T:System.ComponentModel.DoWorkEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.DiagramBuilder.DrawEntityRectangle(Microsoft.Office.Interop.Visio.Page,System.String,Microsoft.Xrm.Sdk.Metadata.OwnershipTypes)">
+            <summary>
+            Draw an "Entity" Rectangle
+            </summary>
+            <param name="page">The Page on which to draw</param>
+            <param name="entityName">The name of the entity</param>
+            <param name="ownership">The ownership type of the entity</param>
+            <returns>The newly drawn rectangle</returns>
+        </member>
+        <member name="M:MSCRMToolKit.DiagramBuilder.DrawDirectionalDynamicConnector(Microsoft.Office.Interop.Visio.Shape,Microsoft.Office.Interop.Visio.Shape,System.Boolean)">
+            <summary>
+            Draw a directional, dynamic connector between two entities, representing an entity relationship.
+            </summary>
+            <param name="shapeFrom">Shape initiating the relationship</param>
+            <param name="shapeTo">Shape referenced by the relationship</param>
+            <param name="isManyToMany">Whether or not it is a many-to-many entity relationship</param>
+        </member>
+        <member name="M:MSCRMToolKit.DiagramBuilder.GetEntityMetadata(System.String)">
+            <summary>
+            Retrieves an entity from the local copy of CRM Metadata
+            </summary>
+            <param name="entityName">The name of the entity to find</param>
+            <returns>NULL if the entity was not found, otherwise the entity's metadata</returns>
+        </member>
+        <member name="M:MSCRMToolKit.DiagramBuilder.GetAttributeMetadata(Microsoft.Xrm.Sdk.Metadata.EntityMetadata,System.String)">
+            <summary>
+            Retrieves an attribute from an EntityMetadata object
+            </summary>
+            <param name="entity">The entity metadata that contains the attribute</param>
+            <param name="attributeName">The name of the attribute to find</param>
+            <returns>NULL if the attribute was not found, otherwise the attribute's metadata</returns>
+        </member>
+        <member name="T:MSCRMToolKit.EntitiesStructureExport">
+            <summary>
+            EntitiesStructureExport class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.EntitiesStructureExport.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.EntitiesStructureExport"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.EntitiesStructureExport.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.EntitiesStructureExport.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.EntitiesStructureExport.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMToolKit">
+            <summary>
+            MSCRMToolkit main application
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKit.MSCRMConnections">
+            <summary>
+            The MSCRM connections
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKit.cm">
+            <summary>
+            The  Connections Manager
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.MSCRMToolKit"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.exitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the exitToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.connectionsManagerToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the connectionsManagerToolStripMenuItem1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.referenceDataTransporterToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the referenceDataTransporterToolStripMenuItem1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.exportEntitiesStructureToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the exportEntitiesStructureToolStripMenuItem1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.viewLogToolStripMenuItem_Click_1(System.Object,System.EventArgs)">
+            <summary>
+            Handles the 1 event of the viewLogToolStripMenuItem_Click control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.logArchivesToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the logArchivesToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.aboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the aboutToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.helpToolStripMenuItem1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the helpToolStripMenuItem1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.dataExportManagerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the dataExportManagerToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.referenceDataTransportReportViewerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the referenceDataTransportReportViewerToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.dataExportReportViewerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the dataExportReportViewerToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.serverSettingsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the serverSettingsToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.solutionExportToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the solutionExportToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.workflowLauncherToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the workflowLauncherToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.recordsCounterToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the recordsCounterToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.auditExportManagerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the auditExportManagerToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.nNRelationshipsTransporterToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the nNRelationshipsTransporterToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.nNReferenceDataTransportReportViewerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the nNReferenceDataTransportReportViewerToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.solutionsImportJobsViewerToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the solutionsImportJobsViewerToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNAssociationsTransporter">
+            <summary>
+            NtoNAssociationsTransporter class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNAssociationsTransporter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.NtoNAssociationsTransporter"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.NtoNAssociationsTransporter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNAssociationsTransporter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNAssociationsTransporter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNTransportReportViewer">
+            <summary>
+            NtoNTransportReportViewer class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportReportViewer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.NtoNTransportReportViewer"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportReportViewer.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.NtoNTransportReportViewer"/> class.
+            </summary>
+            <param name="reportFileName">Name of the report file.</param>
+            <param name="reportFailuresFileName">Name of the report failures file.</param>
+        </member>
+        <member name="F:MSCRMToolKit.NtoNTransportReportViewer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportReportViewer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportReportViewer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNTransportImportFailuresReportViewer">
+            <summary>
+            NtoNTransportImportFailuresReportViewer class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportImportFailuresReportViewer.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.NtoNTransportImportFailuresReportViewer"/> class.
+            </summary>
+            <param name="filename">The filename.</param>
+        </member>
+        <member name="F:MSCRMToolKit.NtoNTransportImportFailuresReportViewer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportImportFailuresReportViewer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportImportFailuresReportViewer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.PropertyComparer`1">
+            <summary>
+            PropertyComparer class
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:MSCRMToolKit.PropertyComparer`1.#ctor(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.PropertyComparer`1"/> class.
+            </summary>
+            <param name="property">The property.</param>
+            <param name="direction">The direction.</param>
+        </member>
+        <member name="M:MSCRMToolKit.PropertyComparer`1.Compare(`0,`0)">
+            <summary>
+            Compares two objects and returns a value indicating whether one is less than, equal to, or greater than the other.
+            </summary>
+            <param name="x">The first object to compare.</param>
+            <param name="y">The second object to compare.</param>
+            <returns>
+            A signed integer that indicates the relative values of <paramref name="x" /> and <paramref name="y" />, as shown in the following table.Value Meaning Less than zero<paramref name="x" /> is less than <paramref name="y" />.Zero<paramref name="x" /> equals <paramref name="y" />.Greater than zero<paramref name="x" /> is greater than <paramref name="y" />.
+            </returns>
+        </member>
+        <member name="M:MSCRMToolKit.PropertyComparer`1.SetPropertyAndDirection(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)">
+            <summary>
+            Sets the property and direction.
+            </summary>
+            <param name="descriptor">The descriptor.</param>
+            <param name="direction">The direction.</param>
+        </member>
+        <member name="T:MSCRMToolKit.RecordsCounter">
+            <summary>
+            Records Counter class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter._serviceProxy">
+            <summary>
+            The CRM service proxy
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter.cm">
+            <summary>
+            The Connections Manager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter.entitiesNames">
+            <summary>
+            The entities names
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter.allEntities">
+            <summary>
+            All entities
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter.selectedEntities">
+            <summary>
+            The selected entities
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter.exportedFilePath">
+            <summary>
+            The exported file path
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter.Folder">
+            <summary>
+            The Workspace folder
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.RecordsCounter"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.comboBoxConnectionSource_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the comboBoxConnectionSource control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.downloadEnvStructure(System.String)">
+            <summary>
+            Downloads the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.ReadEnvStructure(System.String)">
+            <summary>
+            Reads the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.WriteEnvStructure(System.String,System.Collections.Generic.List{System.Collections.Generic.List{System.String}})">
+            <summary>
+            Writes the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <param name="data">The data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.buttonDownloadEntitiesFromSource_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the buttonDownloadEntitiesFromSource control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.quitterToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the quitterToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.getRecordsNumberToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the getRecordsNumberToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.openInExcelToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the openInExcelToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.helpToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the helpToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.checkedListBoxEntities_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            Handles the SelectedIndexChanged event of the checkedListBoxEntities control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.showFilterSetupWizard(System.Object,System.EventArgs)">
+            <summary>
+            Shows the filter setup wizard.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.RecordLine">
+            <summary>
+            Record Line class
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.RecordLine.Select">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:MSCRMToolKit.RecordLine"/> is select.
+            </summary>
+            <value>
+              <c>true</c> if select; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.RecordLine.Entity">
+            <summary>
+            Gets or sets the entity.
+            </summary>
+            <value>
+            The entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.RecordLine.Filter">
+            <summary>
+            Gets or sets the filter.
+            </summary>
+            <value>
+            The filter.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.RecordLine.AttribuiteIdName">
+            <summary>
+            Gets or sets the name of the attribuite identifier.
+            </summary>
+            <value>
+            The name of the attribuite identifier.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.RecordsCounterFilterWizard">
+            <summary>
+            RecordsCounterFilterWizard class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounterFilterWizard.entity">
+            <summary>
+            The entity
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounterFilterWizard.rc">
+            <summary>
+            The rc
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounterFilterWizard.selectedEntities">
+            <summary>
+            The selected entities
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounterFilterWizard.rl">
+            <summary>
+            The rl
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounterFilterWizard.#ctor(MSCRMToolKit.RecordsCounter,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.RecordsCounterFilterWizard"/> class.
+            </summary>
+            <param name="rc">The rc.</param>
+            <param name="entityName">Name of the entity.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounterFilterWizard.toolStripButton2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the toolStripButton2 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounterFilterWizard.toolStripButton1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the toolStripButton1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsCounterFilterWizard.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounterFilterWizard.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsCounterFilterWizard.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.RecordsMapping">
+            <summary>
+            RecordsMapping class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsMapping._serviceProxySource">
+            <summary>
+            The _service proxy source
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsMapping._serviceProxyTarget">
+            <summary>
+            The _service proxy target
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsMapping.#ctor(MSCRMToolKit.ReferenceDataTransporter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.RecordsMapping"/> class.
+            </summary>
+            <param name="rdt">The RDT.</param>
+        </member>
+        <member name="F:MSCRMToolKit.RecordsMapping.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsMapping.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.RecordsMapping.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.ReferenceDataTransporter">
+            <summary>
+            ReferenceDataTransporter class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.ReferenceDataTransporter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.ReferenceDataTransporter"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.ReferenceDataTransporter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.ReferenceDataTransporter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.ReferenceDataTransporter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.SetupIgnoredAttributes">
+            <summary>
+            SetupIgnoredAttributes class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SetupIgnoredAttributes.rdt">
+            <summary>
+            The RDT
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SetupIgnoredAttributes.entity">
+            <summary>
+            The entity
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SetupIgnoredAttributes.#ctor(MSCRMToolKit.ReferenceDataTransporter,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.SetupIgnoredAttributes"/> class.
+            </summary>
+            <param name="rdt">The RDT.</param>
+            <param name="entity">The entity.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SetupIgnoredAttributes.SetupIgnoredAttributes_Load(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Load event of the SetupIgnoredAttributes control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SetupIgnoredAttributes.toolStripButton2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the toolStripButton2 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SetupIgnoredAttributes.toolStripButton1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the toolStripButton1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:MSCRMToolKit.SetupIgnoredAttributes.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SetupIgnoredAttributes.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SetupIgnoredAttributes.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.TransportImportFailuresReportViewer">
+            <summary>
+            TransportImportFailuresReportViewer class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.TransportImportFailuresReportViewer.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.TransportImportFailuresReportViewer"/> class.
+            </summary>
+            <param name="filename">The filename.</param>
+        </member>
+        <member name="F:MSCRMToolKit.TransportImportFailuresReportViewer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.TransportImportFailuresReportViewer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.TransportImportFailuresReportViewer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.TransportReportViewer">
+            <summary>
+            TransportReportViewer class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.TransportReportViewer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.TransportReportViewer"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.TransportReportViewer.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.TransportReportViewer"/> class.
+            </summary>
+            <param name="reportFileName">Name of the report file.</param>
+            <param name="reportFailuresFileName">Name of the report failures file.</param>
+        </member>
+        <member name="F:MSCRMToolKit.TransportReportViewer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.TransportReportViewer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.TransportReportViewer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.DeploymentProperties">
+            <summary>
+            DeploymentProperties class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DeploymentProperties.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.DeploymentProperties"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.DeploymentProperties.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DeploymentProperties.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.DeploymentProperties.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.SolutionsTransporter">
+            <summary>
+            SolutionsTransporter class
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsTransporter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.SolutionsTransporter"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SolutionsTransporter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsTransporter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsTransporter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.SolutionsImportJobsViewer">
+            <summary>
+            Solutions Import Jobs Viewer class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SolutionsImportJobsViewer._serviceProxy">
+            <summary>
+            The CRM service proxy
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SolutionsImportJobsViewer.cm">
+            <summary>
+            The Connections Manager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SolutionsImportJobsViewer.Folder">
+            <summary>
+            The Workspace folder
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsImportJobsViewer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.SolutionsImportJobsViewer"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsImportJobsViewer.buttonLoadSolutionsImportJobs_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the buttonLoadSolutionsImportJobs control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsImportJobsViewer.exitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the exitToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsImportJobsViewer.dataGridView1_CellClick(System.Object,System.Windows.Forms.DataGridViewCellEventArgs)">
+            <summary>
+            Handles the CellClick event of the dataGridView1 control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Forms.DataGridViewCellEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsImportJobsViewer.helpToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Handles the Click event of the helpToolStripMenuItem control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="F:MSCRMToolKit.SolutionsImportJobsViewer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsImportJobsViewer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SolutionsImportJobsViewer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMSolutionImportJob">
+            <summary>
+            MSCRM Solution Import Job
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.completedon">
+            <summary>
+            Gets or sets the completedon.
+            </summary>
+            <value>
+            The completedon.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.createdby">
+            <summary>
+            Gets or sets the createdby.
+            </summary>
+            <value>
+            The createdby.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.data">
+            <summary>
+            Gets or sets the data.
+            </summary>
+            <value>
+            The data.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.importjobid">
+            <summary>
+            Gets or sets the importjobid.
+            </summary>
+            <value>
+            The importjobid.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.modifiedon">
+            <summary>
+            Gets or sets the modifiedon.
+            </summary>
+            <value>
+            The modifiedon.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.progress">
+            <summary>
+            Gets or sets the progress.
+            </summary>
+            <value>
+            The progress.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.solutionname">
+            <summary>
+            Gets or sets the solutionname.
+            </summary>
+            <value>
+            The solutionname.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.startedon">
+            <summary>
+            Gets or sets the startedon.
+            </summary>
+            <value>
+            The startedon.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionImportJob.DownloadLog">
+            <summary>
+            Gets or sets the download log.
+            </summary>
+            <value>
+            The download log.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.SortableBindingList`1">
+            <summary>
+            SortableBindingList class extending BindingList
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:MSCRMToolKit.SortableBindingList`1.comparers">
+            <summary>
+            The comparers
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SortableBindingList`1.isSorted">
+            <summary>
+            The is sorted
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SortableBindingList`1.listSortDirection">
+            <summary>
+            The list sort direction
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.SortableBindingList`1.propertyDescriptor">
+            <summary>
+            The property descriptor
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SortableBindingList`1.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.SortableBindingList`1"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SortableBindingList`1.#ctor(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.SortableBindingList`1"/> class.
+            </summary>
+            <param name="enumeration">The enumeration.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SortableBindingList`1.ApplySortCore(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)">
+            <summary>
+            Applies the sort core.
+            </summary>
+            <param name="property">The property.</param>
+            <param name="direction">The direction.</param>
+        </member>
+        <member name="M:MSCRMToolKit.SortableBindingList`1.RemoveSortCore">
+            <summary>
+            Removes the sort core.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.SortableBindingList`1.FindCore(System.ComponentModel.PropertyDescriptor,System.Object)">
+            <summary>
+            Finds the core.
+            </summary>
+            <param name="property">The property.</param>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="P:MSCRMToolKit.SortableBindingList`1.SupportsSortingCore">
+            <summary>
+            Gets a value indicating whether [supports sorting core].
+            </summary>
+            <value>
+              <c>true</c> if [supports sorting core]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SortableBindingList`1.IsSortedCore">
+            <summary>
+            Gets a value indicating whether this instance is sorted core.
+            </summary>
+            <value>
+            <c>true</c> if this instance is sorted core; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SortableBindingList`1.SortPropertyCore">
+            <summary>
+            Gets the sort property core.
+            </summary>
+            <value>
+            The sort property core.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SortableBindingList`1.SortDirectionCore">
+            <summary>
+            Gets the sort direction core.
+            </summary>
+            <value>
+            The sort direction core.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SortableBindingList`1.SupportsSearchingCore">
+            <summary>
+            Gets a value indicating whether [supports searching core].
+            </summary>
+            <value>
+            <c>true</c> if [supports searching core]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.WorkflowExecution">
+            <summary>
+            WorkflowExecution form
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.WorkflowExecution.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.WorkflowExecution"/> class.
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.WorkflowExecution.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.WorkflowExecution.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MSCRMToolKit.WorkflowExecution.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:XmlEditor">
+            <summary>
+            Editor that does Xml formatting and syntax highlighting.
+            </summary>
+        </member>
+        <member name="M:XmlEditor.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:XmlEditor.xmlTextBox_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Format Xml when text changes.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:XmlEditor.FormatXml(System.Windows.Forms.RichTextBox)">
+            <summary>
+            Format Xml in the passed rich text box.
+            </summary>
+            <param name="xmlEditor"></param>
+        </member>
+        <member name="F:XmlEditor.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:XmlEditor.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:XmlEditor.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:XmlEditor.Text">
+            <summary>
+            Set or get the text of the xml editor.
+            </summary>
+        </member>
+        <member name="P:XmlEditor.AllowXmlFormatting">
+            <summary>
+            Tells whether to format the editor's Xml or not.
+            </summary>
+        </member>
+        <member name="P:XmlEditor.ReadOnly">
+            <summary>
+            Whether to allow the user to change text.
+            </summary>
+        </member>
+        <member name="T:RichTextDrawing">
+            <summary>
+            Helper class to change colors on a RichTextBox without flickering.
+            </summary>
+        </member>
+        <member name="M:RichTextDrawing.LockWindowUpdate(System.IntPtr)">
+            <summary>
+            Locks the window update.
+            </summary>
+            <param name="hWndLock">The h WND lock.</param>
+            <returns></returns>
+        </member>
+        <member name="M:RichTextDrawing.StopRedraw(System.Windows.Forms.RichTextBox)">
+            <summary>
+            Stops the redraw.
+            </summary>
+            <param name="richTextBox">The rich text box.</param>
+        </member>
+        <member name="M:RichTextDrawing.RestoreRedraw(System.Windows.Forms.RichTextBox)">
+            <summary>
+            Restores the redraw.
+            </summary>
+            <param name="richTextBox">The rich text box.</param>
+        </member>
+        <member name="T:XmlTokenType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:XmlTokenType.None">
+            <summary>
+            The none
+            </summary>
+        </member>
+        <member name="F:XmlTokenType.SpecialChar">
+            <summary>
+            The special character
+            </summary>
+        </member>
+        <member name="F:XmlTokenType.Escape">
+            <summary>
+            The escape
+            </summary>
+        </member>
+        <member name="F:XmlTokenType.Comment">
+            <summary>
+            The comment
+            </summary>
+        </member>
+        <member name="F:XmlTokenType.Element">
+            <summary>
+            The element
+            </summary>
+        </member>
+        <member name="F:XmlTokenType.Attribute">
+            <summary>
+            The attribute
+            </summary>
+        </member>
+        <member name="F:XmlTokenType.Value">
+            <summary>
+            The value
+            </summary>
+        </member>
+        <member name="T:XmlToken">
+            <summary>
+            Represents an Xml token with a specific type, index in the parsed string
+            and text.
+            </summary>
+        </member>
+        <member name="M:XmlToken.#ctor">
+            <summary>
+            Empty Constructor
+            </summary>
+        </member>
+        <member name="M:XmlToken.#ctor(System.String,System.Int32,XmlTokenType)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="text"></param>
+            <param name="index"></param>
+            <param name="type"></param>
+        </member>
+        <member name="P:XmlToken.Text">
+            <summary>
+            Gets or sets the text.
+            </summary>
+            <value>
+            The text.
+            </value>
+        </member>
+        <member name="P:XmlToken.Index">
+            <summary>
+            Gets or sets the index.
+            </summary>
+            <value>
+            The index.
+            </value>
+        </member>
+        <member name="P:XmlToken.Type">
+            <summary>
+            Gets or sets the type.
+            </summary>
+            <value>
+            The type.
+            </value>
+        </member>
+        <member name="T:XmlTokenizer">
+            <summary>
+            Class responsible for splitting Xml text into tokens.
+            </summary>
+        </member>
+        <member name="M:XmlTokenizer.Tokenize(System.String)">
+            <summary>
+            Split the passed string into Xml tokens.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+            <remarks>Looping char by char is more efficient than regular expressions</remarks>
+        </member>
+        <member name="M:XmlTokenizer.LoopTokenize(System.String)">
+            <summary>
+            Iterate over characters one by one to tokenize the Xml string.
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MSCRMToolKit.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

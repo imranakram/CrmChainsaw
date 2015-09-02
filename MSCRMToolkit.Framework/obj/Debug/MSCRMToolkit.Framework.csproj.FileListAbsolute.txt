@@ -1,0 +1,10 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\bin\Debug\MSCRMToolkit.Framework.XML
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\bin\Debug\MSCRMToolkit.Framework.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\bin\Debug\MSCRMToolkit.Framework.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\bin\Debug\LogManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\bin\Debug\Microsoft.Xrm.Sdk.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\bin\Debug\MSCRMConnectionsManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\obj\Debug\MSCRMToolkit.Framework.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\obj\Debug\MSCRMToolkit.Framework.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolkit.Framework\obj\Debug\MSCRMToolkit.Framework.pdb

@@ -1,0 +1,581 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMNtoNAssociationsTransportManager</name>
+    </assembly>
+    <members>
+        <member name="T:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager">
+            <summary>
+            MSCRM N to N Associations Transport Manager class extending MSCRMToolKitProfileManager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.Profiles">
+            <summary>
+            The profiles
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.Folder">
+            <summary>
+            The Workspace folder
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.ConfigurationFileName">
+            <summary>
+            The configuration file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.ReportFileName">
+            <summary>
+            The report file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.importFailuresReportFileName">
+            <summary>
+            The import failures report file name
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.CreateProfile(MSCRMToolKit.NtoNAssociationsTransportProfile)">
+            <summary>
+            Creates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.UpdateProfile(MSCRMToolKit.NtoNAssociationsTransportProfile)">
+            <summary>
+            Updates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.DeleteProfile(MSCRMToolKit.NtoNAssociationsTransportProfile)">
+            <summary>
+            Deletes the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.GetProfile(System.String)">
+            <summary>
+            Gets the profile.
+            </summary>
+            <param name="profileName">Name of the profile.</param>
+            <returns>The N to N Associations Transport Profile</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.RunProfile(MSCRMToolKit.NtoNAssociationsTransportProfile)">
+            <summary>
+            Runs the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <returns>The Execution Report File Name</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.downloadEnvStructure(System.String)">
+            <summary>
+            Downloads the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns>The N to N Relationships Structure</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.ReadEnvStructure(System.String)">
+            <summary>
+            Reads the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns>The N to N Relationships Structure</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.ExportEntity(MSCRMToolKit.NtoNAssociationsTransportProfile,System.String,System.String)">
+            <summary>
+            Exports the entity.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="fetchXml">The fetch fetchXML query.</param>
+            <param name="RelationshipSchemaName">Name of the relationship schema.</param>
+            <returns>The number of exported record for the Entity</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.updateTransportReport(MSCRMToolKit.NtoNTransportReport,MSCRMToolKit.SelectedNtoNRelationship,System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Updates the transport report.
+            </summary>
+            <param name="report">The report.</param>
+            <param name="ee">The Selected N to N Relationship.</param>
+            <param name="importedRecordsForEntity">The imported records for entity.</param>
+            <param name="importFailuresForEntity">The import failures for entity.</param>
+            <param name="entityImportStartDT">The entity import start dt.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.WriteTransportReport(MSCRMToolKit.NtoNTransportReport,System.String)">
+            <summary>
+            Writes the transport report.
+            </summary>
+            <param name="tr">The N to N Transport Report.</param>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.ReadTransportReport(System.String)">
+            <summary>
+            Reads the transport report.
+            </summary>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+            <returns>The N to N Transport Report.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.WriteNewImportFailureLine(MSCRMToolKit.NtoNRelationshipsImportFailure,System.String)">
+            <summary>
+            Writes the new import failure line.
+            </summary>
+            <param name="failure">The failure.</param>
+            <param name="importFailuresReportFileName">Name of the import failures report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.ReadImportFailuresReport(System.String)">
+            <summary>
+            Reads the import failures report.
+            </summary>
+            <param name="importFailuresReportFileName">Name of the import failures report file.</param>
+            <returns>List of N to N Relationships Import Failures.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.getRelatedEntityGuid(System.Object)">
+            <summary>
+            Gets the related entity unique identifier.
+            </summary>
+            <param name="RelatedEntity">The related entity.</param>
+            <returns>Guid of the Related Entity</returns>
+            <exception cref="T:System.Exception">Unknown type</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.AlreadyAssociated(Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy,MSCRMToolKit.SelectedNtoNRelationship,System.Guid,System.Guid)">
+            <summary>
+            Alreadies the associated.
+            </summary>
+            <param name="osp">The Organization Service Proxy.</param>
+            <param name="ee">The Selected N to N Relationship.</param>
+            <param name="Record1">The record 1 Id.</param>
+            <param name="Record2">The record 2 Id.</param>
+            <returns>True or False if the two records are already associated</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.ReadProfiles">
+            <summary>
+            Reads the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.WriteProfiles">
+            <summary>
+            Writes the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.WriteEnvStructure(MSCRMToolKit.NtoNRelationshipsStructure)">
+            <summary>
+            Writes the env structure.
+            </summary>
+            <param name="str">The string.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.Export(MSCRMToolKit.NtoNAssociationsTransportProfile,System.String)">
+            <summary>
+            Exports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMNtoNAssociationsTransportManager.Import(MSCRMToolKit.NtoNAssociationsTransportProfile,System.String)">
+            <summary>
+            Imports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNAssociationsTransportProfile">
+            <summary>
+            NtoNAssociationsTransportProfile class extending MSCRMToolKitProfile
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNAssociationsTransportProfile.getSelectedNtoNRelationship(System.String)">
+            <summary>
+            Gets the selected n to n relationship.
+            </summary>
+            <param name="selectedNtoNRelationshipName">Name of the selected nto n relationship.</param>
+            <returns>The retrieved n to n relationship</returns>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNAssociationsTransportProfile.Operation">
+            <summary>
+            Gets or sets the operation.
+            </summary>
+            <value>
+            The operation.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNAssociationsTransportProfile.SelectedNtoNRelationships">
+            <summary>
+            Gets or sets the selected n to n relationships.
+            </summary>
+            <value>
+            The selected n to n relationships.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNAssociationsTransportProfile.TotalExportedRecords">
+            <summary>
+            Gets or sets the total exported records.
+            </summary>
+            <value>
+            The total exported records.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNRelationship">
+            <summary>
+            N to N Relationship
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationship.Selected">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:MSCRMToolKit.NtoNRelationship"/> is selected.
+            </summary>
+            <value>
+              <c>true</c> if selected; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationship.RelationshipSchemaName">
+            <summary>
+            Gets or sets the name of the relationship schema.
+            </summary>
+            <value>
+            The name of the relationship schema.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationship.IntersectEntityName">
+            <summary>
+            Gets or sets the name of the intersect entity.
+            </summary>
+            <value>
+            The name of the intersect entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationship.Entity1LogicalName">
+            <summary>
+            Gets or sets the logical name of the entity 1.
+            </summary>
+            <value>
+            The logical name of the entity 1 .
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationship.Entity1IntersectAttribute">
+            <summary>
+            Gets or sets the entity 1 intersect attribute.
+            </summary>
+            <value>
+            The entity 1 intersect attribute.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationship.Entity2LogicalName">
+            <summary>
+            Gets or sets the logical name of the entity 2 .
+            </summary>
+            <value>
+            The logical name of the entity 2 .
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationship.Entity2IntersectAttribute">
+            <summary>
+            Gets or sets the entity 2 intersect attribute.
+            </summary>
+            <value>
+            The entity 2 intersect attribute.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNRelationshipsStructure">
+            <summary>
+            N to N Relationships Structure
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNRelationshipsStructure.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.NtoNRelationshipsStructure"/> class.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationshipsStructure.connectionName">
+            <summary>
+            Gets or sets the name of the connection.
+            </summary>
+            <value>
+            The name of the connection.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationshipsStructure.NtoNRelationships">
+            <summary>
+            Gets or sets the n to n relationships.
+            </summary>
+            <value>
+            The n to n relationships.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.SelectedNtoNRelationship">
+            <summary>
+            Selected N to N Relationship
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedNtoNRelationship.RelationshipSchemaName">
+            <summary>
+            Gets or sets the name of the relationship schema.
+            </summary>
+            <value>
+            The name of the relationship schema.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedNtoNRelationship.IntersectEntityName">
+            <summary>
+            Gets or sets the name of the intersect entity.
+            </summary>
+            <value>
+            The name of the intersect entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedNtoNRelationship.Entity1LogicalName">
+            <summary>
+            Gets or sets the logical name of the entity 1.
+            </summary>
+            <value>
+            The name of the logical entity 1.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedNtoNRelationship.Entity1IntersectAttribute">
+            <summary>
+            Gets or sets the entity 1 intersect attribute.
+            </summary>
+            <value>
+            The entity 1 intersect attribute.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedNtoNRelationship.Entity2LogicalName">
+            <summary>
+            Gets or sets the logical name of the entity 2.
+            </summary>
+            <value>
+            The logical name of the entity 2.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedNtoNRelationship.Entity2IntersectAttribute">
+            <summary>
+            Gets or sets the entity 2 intersect attribute.
+            </summary>
+            <value>
+            The entity 2 intersect attribute.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedNtoNRelationship.ExportedRecords">
+            <summary>
+            Gets or sets the exported records number.
+            </summary>
+            <value>
+            The exported records number.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNTransportReport">
+            <summary>
+            N to N Transport Report
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.NtoNTransportReport.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.NtoNTransportReport"/> class.
+            </summary>
+            <param name="TransportProfileName">Name of the transport profile.</param>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TransportProfileName">
+            <summary>
+            Gets or sets the name of the transport profile.
+            </summary>
+            <value>
+            The name of the transport profile.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TransportStartedAt">
+            <summary>
+            Gets or sets the transport started at.
+            </summary>
+            <value>
+            The transport started at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TransportFinishedAt">
+            <summary>
+            Gets or sets the transport finished at.
+            </summary>
+            <value>
+            The transport finished at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TransportedIn">
+            <summary>
+            Gets or sets the transported in.
+            </summary>
+            <value>
+            The transported in.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TotalExportedRecords">
+            <summary>
+            Gets or sets the total exported records.
+            </summary>
+            <value>
+            The total exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TotalImportedRecords">
+            <summary>
+            Gets or sets the total imported records.
+            </summary>
+            <value>
+            The total imported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TotalImportFailures">
+            <summary>
+            Gets or sets the total import failures.
+            </summary>
+            <value>
+            The total import failures.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.TransportCompleted">
+            <summary>
+            Gets or sets a value indicating whether [transport completed].
+            </summary>
+            <value>
+              <c>true</c> if [transport completed]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReport.ReportLines">
+            <summary>
+            Gets or sets the report lines.
+            </summary>
+            <value>
+            The report lines.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNTransportReportLine">
+            <summary>
+            N to N Transport Report Line
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.RelationshipSchemaName">
+            <summary>
+            Gets or sets the name of the relationship schema.
+            </summary>
+            <value>
+            The name of the relationship schema.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ExportedRecords">
+            <summary>
+            Gets or sets the exported records.
+            </summary>
+            <value>
+            The exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ExportStartedAt">
+            <summary>
+            Gets or sets the export started at.
+            </summary>
+            <value>
+            The export started at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ExportFinishedAt">
+            <summary>
+            Gets or sets the export finished at.
+            </summary>
+            <value>
+            The export finished at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ExportedIn">
+            <summary>
+            Gets or sets the exported in.
+            </summary>
+            <value>
+            The exported in.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ImportedRecords">
+            <summary>
+            Gets or sets the imported records.
+            </summary>
+            <value>
+            The imported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ImportFailures">
+            <summary>
+            Gets or sets the import failures.
+            </summary>
+            <value>
+            The import failures.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ImportStartedAt">
+            <summary>
+            Gets or sets the import started at.
+            </summary>
+            <value>
+            The import started at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ImportFinishedAt">
+            <summary>
+            Gets or sets the import finished at.
+            </summary>
+            <value>
+            The import finished at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNTransportReportLine.ImportedIn">
+            <summary>
+            Gets or sets the imported in.
+            </summary>
+            <value>
+            The imported in.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.NtoNRelationshipsImportFailure">
+            <summary>
+            N to N Relationships Import Failure
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationshipsImportFailure.CreatedOn">
+            <summary>
+            Gets or sets the created on.
+            </summary>
+            <value>
+            The created on.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationshipsImportFailure.Reason">
+            <summary>
+            Gets or sets the reason.
+            </summary>
+            <value>
+            The reason.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationshipsImportFailure.NtoNRelationshipName">
+            <summary>
+            Gets or sets the name of the nto n relationship.
+            </summary>
+            <value>
+            The name of the nto n relationship.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationshipsImportFailure.UrlEntity1">
+            <summary>
+            Gets or sets the URL of entity 1.
+            </summary>
+            <value>
+            The URL of entity 1.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.NtoNRelationshipsImportFailure.UrlEntity2">
+            <summary>
+            Gets or sets the URL of entity 2.
+            </summary>
+            <value>
+            The URL of entity 2.
+            </value>
+        </member>
+    </members>
+</doc>

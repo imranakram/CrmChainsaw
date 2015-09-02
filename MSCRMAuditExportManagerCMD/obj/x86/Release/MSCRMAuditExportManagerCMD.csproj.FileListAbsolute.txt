@@ -1,0 +1,14 @@
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMAuditExportManagerCMD.exe.config
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMAuditExportManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMAuditExportManagerCMD.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMAuditExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMAuditExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\bin\Release\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\obj\x86\Release\MSCRMAuditExportManagerCMD.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\obj\x86\Release\MSCRMAuditExportManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\obj\x86\Release\MSCRMAuditExportManagerCMD.pdb

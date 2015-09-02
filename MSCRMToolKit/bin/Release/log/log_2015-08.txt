@@ -1,0 +1,122 @@
+/////////////////////////   L O G    F I L E   /////////////////////////
+________________________________________________________________________
+
+2015-08-31 21:37:03 | Reference Data Transporter launched.
+2015-08-31 21:37:46 | Connection Crm2013Prod tested successfully.
+2015-08-31 21:38:22 | Connection Crm2015Dev tested successfully.
+2015-08-31 21:38:27 | Reference Data Transporter launched.
+2015-08-31 21:40:38 | Transportation Profile Test saved.
+2015-08-31 21:40:39 | Transportation Profile Test saved.
+2015-08-31 21:40:39 | Running Transportation Profile: Test
+2015-08-31 21:40:40 | Start exporting data from Crm2013Prod
+2015-08-31 21:40:40 | Exporting data for entity account
+2015-08-31 21:40:41 | Exported 1 account records.
+2015-08-31 21:40:41 | Export finished for Crm2013Prod. Exported 1 records in 00:00:00.6
+2015-08-31 21:40:43 | Start importing data in Crm2015Dev
+2015-08-31 21:40:43 | Importing account records.
+2015-08-31 21:40:45 | Error:The process cannot access the file 'C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Release\ReferenceDataTransporter\Test\ExecutionReports\ImportFailuresReport2015-8-31-21-40-39.xml' because it is being used by another process.
+2015-08-31 21:45:59 | Reference Data Transporter launched.
+2015-08-31 21:46:04 | Transportation Profile Test saved.
+2015-08-31 21:46:04 | Running Transportation Profile: Test
+2015-08-31 21:46:06 | Start exporting data from Crm2013Prod
+2015-08-31 21:46:06 | Exporting data for entity account
+2015-08-31 21:46:07 | Exported 1 account records.
+2015-08-31 21:46:07 | Export finished for Crm2013Prod. Exported 1 records in 00:00:01.1
+2015-08-31 21:46:09 | Start importing data in Crm2015Dev
+2015-08-31 21:46:09 | Importing account records.
+2015-08-31 21:46:14 | Error:The process cannot access the file 'C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Release\ReferenceDataTransporter\Test\ExecutionReports\ImportFailuresReport2015-8-31-21-46-4.xml' because it is being used by another process.
+2015-08-31 21:46:58 | Reference Data Transporter launched.
+2015-08-31 21:47:09 | Transportation Profile Test saved.
+2015-08-31 21:47:09 | Transportation Profile Test saved.
+2015-08-31 21:47:09 | Running Transportation Profile: Test
+2015-08-31 21:47:11 | Start exporting data from Crm2013Prod
+2015-08-31 21:47:11 | Exporting data for entity account
+2015-08-31 21:47:13 | Exported 1 account records.
+2015-08-31 21:47:13 | Export finished for Crm2013Prod. Exported 1 records in 00:00:01.4
+2015-08-31 21:47:15 | Start importing data in Crm2015Dev
+2015-08-31 21:47:15 | Importing account records.
+2015-08-31 21:47:16 | Error:The process cannot access the file 'C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Release\ReferenceDataTransporter\Test\ExecutionReports\ImportFailuresReport2015-8-31-21-47-9.xml' because it is being used by another process.
+2015-08-31 21:47:55 | Reference Data Transporter launched.
+2015-08-31 21:47:59 | Transportation Profile Test saved.
+2015-08-31 21:47:59 | Running Transportation Profile: Test
+2015-08-31 21:48:30 | Start exporting data from Crm2013Prod
+2015-08-31 21:48:39 | Exporting data for entity account
+2015-08-31 21:49:20 | Exported 1 account records.
+2015-08-31 21:49:35 | Export finished for Crm2013Prod. Exported 1 records in 00:01:06.7
+2015-08-31 21:51:12 | Start importing data in Crm2015Dev
+2015-08-31 21:51:28 | Importing account records.
+2015-08-31 21:57:29 | Reference Data Transporter launched.
+2015-08-31 21:57:39 | Transportation Profile Test saved.
+2015-08-31 21:57:39 | Running Transportation Profile: Test
+2015-08-31 21:57:41 | Start exporting data from Crm2013Prod
+2015-08-31 21:57:41 | Exporting data for entity account
+2015-08-31 21:57:49 | Exported 1 account records.
+2015-08-31 21:57:49 | Export finished for Crm2013Prod. Exported 1 records in 00:00:08.0
+2015-08-31 21:57:52 | Start importing data in Crm2015Dev
+2015-08-31 21:57:52 | Importing account records.
+2015-08-31 21:57:53 | Treated 1 account records with 0 successfully imported records and 1 failures.
+2015-08-31 21:57:53 | Import finished for Crm2015Dev. Treated 1 records in 00:00:01.6. Successfuly imported 0 records and 1 failures.
+2015-08-31 22:00:28 | Reference Data Transporter launched.
+2015-08-31 22:00:31 | Transportation Profile Test saved.
+2015-08-31 22:00:31 | Running Transportation Profile: Test
+2015-08-31 22:00:34 | Start exporting data from Crm2013Prod
+2015-08-31 22:00:34 | Exporting data for entity account
+2015-08-31 22:00:35 | Exported 1 account records.
+2015-08-31 22:00:35 | Export finished for Crm2013Prod. Exported 1 records in 00:00:01.4
+2015-08-31 22:00:37 | Start importing data in Crm2015Dev
+2015-08-31 22:00:37 | Importing account records.
+2015-08-31 22:00:39 | Treated 1 account records with 0 successfully imported records and 1 failures.
+2015-08-31 22:00:39 | Import finished for Crm2015Dev. Treated 1 records in 00:00:01.8. Successfuly imported 0 records and 1 failures.
+2015-08-31 22:05:23 | Reference Data Transporter launched.
+2015-08-31 22:05:26 | Transportation Profile Test saved.
+2015-08-31 22:05:26 | Running Transportation Profile: Test
+2015-08-31 22:05:28 | Start exporting data from Crm2013Prod
+2015-08-31 22:05:28 | Exporting data for entity account
+2015-08-31 22:05:29 | Exported 1 account records.
+2015-08-31 22:05:30 | Export finished for Crm2013Prod. Exported 1 records in 00:00:01.2
+2015-08-31 22:05:32 | Start importing data in Crm2015Dev
+2015-08-31 22:05:32 | Importing account records.
+2015-08-31 22:05:33 | Treated 1 account records with 0 successfully imported records and 1 failures.
+2015-08-31 22:05:33 | Import finished for Crm2015Dev. Treated 1 records in 00:00:01.6. Successfuly imported 0 records and 1 failures.
+2015-08-31 22:07:03 | Transportation Profile Test saved.
+2015-08-31 22:07:04 | Transportation Profile Test saved.
+2015-08-31 22:07:04 | Running Transportation Profile: Test
+2015-08-31 22:07:06 | Start exporting data from Crm2013Prod
+2015-08-31 22:07:06 | Exporting data for entity account
+2015-08-31 22:07:07 | Exported 1 account records.
+2015-08-31 22:07:07 | Export finished for Crm2013Prod. Exported 1 records in 00:00:01.0
+2015-08-31 22:07:08 | Start importing data in Crm2015Dev
+2015-08-31 22:07:08 | Importing account records.
+2015-08-31 22:07:09 | Treated 1 account records with 0 successfully imported records and 1 failures.
+2015-08-31 22:07:09 | Import finished for Crm2015Dev. Treated 1 records in 00:00:01.0. Successfuly imported 0 records and 1 failures.
+2015-08-31 22:13:37 | Reference Data Transporter launched.
+2015-08-31 22:18:38 | Reference Data Transporter launched.
+2015-08-31 22:18:41 | Transportation Profile Test saved.
+2015-08-31 22:18:41 | Running Transportation Profile: Test
+2015-08-31 22:19:41 | Reference Data Transporter launched.
+2015-08-31 22:24:53 | Reference Data Transporter launched.
+2015-08-31 22:28:26 | Reference Data Transporter launched.
+2015-08-31 22:29:32 | Transportation Profile Test saved.
+2015-08-31 22:29:32 | Running Transportation Profile: Test
+2015-08-31 22:29:34 | No entities selected for transport. Select the entities and then run the profile
+2015-08-31 22:29:46 | Transportation Profile Test saved.
+2015-08-31 22:29:46 | Transportation Profile Test saved.
+2015-08-31 22:29:46 | Running Transportation Profile: Test
+2015-08-31 22:29:48 | Start exporting data from Crm2013Prod
+2015-08-31 22:29:48 | Exporting data for entity account
+2015-08-31 22:29:52 | Exported 335 account records.
+2015-08-31 22:29:52 | Export finished for Crm2013Prod. Exported 335 records in 00:00:04.2
+2015-08-31 22:29:54 | Start importing data in Crm2015Dev
+2015-08-31 22:29:54 | Importing account records.
+2015-08-31 22:30:38 | Transportation Profile Test saved.
+2015-08-31 22:31:20 | Transportation Profile Test saved.
+2015-08-31 22:31:29 | Transportation Profile Test saved.
+2015-08-31 22:31:29 | Running Transportation Profile: Test
+2015-08-31 22:31:30 | Start exporting data from Crm2013Prod
+2015-08-31 22:31:30 | Exporting data for entity account
+2015-08-31 22:31:31 | Exported 1 account records.
+2015-08-31 22:31:31 | Export finished for Crm2013Prod. Exported 1 records in 00:00:01.0
+2015-08-31 22:31:33 | Start importing data in Crm2015Dev
+2015-08-31 22:31:33 | Importing account records.
+2015-08-31 22:31:34 | Treated 1 account records with 0 successfully imported records and 1 failures.
+2015-08-31 22:31:34 | Import finished for Crm2015Dev. Treated 1 records in 00:00:01.0. Successfuly imported 0 records and 1 failures.

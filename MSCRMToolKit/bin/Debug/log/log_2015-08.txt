@@ -1,0 +1,47 @@
+/////////////////////////   L O G    F I L E   /////////////////////////
+________________________________________________________________________
+
+2015-08-31 20:07:25 | Reference Data Transporter launched.
+2015-08-31 20:09:24 | Connection Dev2015 tested successfully.
+2015-08-31 20:10:37 | Connection Prod2013 tested successfully.
+2015-08-31 20:10:57 | Reference Data Transporter launched.
+2015-08-31 20:27:52 | Reference Data Transporter launched.
+2015-08-31 20:30:12 | Transportation Profile TestIntegration saved.
+2015-08-31 20:30:16 | Transportation Profile TestIntegration saved.
+2015-08-31 20:30:16 | Running Transportation Profile: TestIntegration
+2015-08-31 20:30:20 | Start exporting data from Prod2013
+2015-08-31 20:30:20 | Exporting data for entity account
+2015-08-31 20:30:21 | Exported 1 account records.
+2015-08-31 20:30:21 | Export finished for Prod2013. Exported 1 records in 00:00:01.1
+2015-08-31 20:30:25 | Start importing data in Dev2015
+2015-08-31 20:30:25 | Importing account records.
+2015-08-31 20:30:31 | Error:The process cannot access the file 'C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\ReferenceDataTransporter\TestIntegration\ExecutionReports\ImportFailuresReport2015-8-31-20-30-16.xml' because it is being used by another process.
+2015-08-31 20:31:12 | Transportation Profile TestIntegration saved.
+2015-08-31 20:31:12 | Running Transportation Profile: TestIntegration
+2015-08-31 20:31:15 | Start exporting data from Prod2013
+2015-08-31 20:31:15 | Exporting data for entity account
+2015-08-31 20:31:20 | Exported 1 account records.
+2015-08-31 20:31:20 | Export finished for Prod2013. Exported 1 records in 00:00:04.7
+2015-08-31 20:31:24 | Start importing data in Dev2015
+2015-08-31 20:31:24 | Importing account records.
+2015-08-31 20:31:28 | Error:The process cannot access the file 'C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\ReferenceDataTransporter\TestIntegration\ExecutionReports\ImportFailuresReport2015-8-31-20-31-12.xml' because it is being used by another process.
+2015-08-31 20:35:09 | Transportation Profile TestIntegration saved.
+2015-08-31 20:35:09 | Running Transportation Profile: TestIntegration
+2015-08-31 20:35:11 | Start exporting data from Prod2013
+2015-08-31 20:35:11 | Exporting data for entity account
+2015-08-31 20:35:12 | Exported 1 account records.
+2015-08-31 20:35:12 | Export finished for Prod2013. Exported 1 records in 00:00:01.4
+2015-08-31 20:35:17 | Start importing data in Dev2015
+2015-08-31 20:35:17 | Importing account records.
+2015-08-31 20:35:23 | Error:The process cannot access the file 'C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\ReferenceDataTransporter\TestIntegration\ExecutionReports\ImportFailuresReport2015-8-31-20-35-9.xml' because it is being used by another process.
+2015-08-31 20:36:10 | Reference Data Transporter launched.
+2015-08-31 20:36:16 | Transportation Profile TestIntegration saved.
+2015-08-31 20:36:16 | Running Transportation Profile: TestIntegration
+2015-08-31 20:36:24 | Start exporting data from Prod2013
+2015-08-31 20:36:24 | Exporting data for entity account
+2015-08-31 20:36:30 | Exported 1 account records.
+2015-08-31 20:36:30 | Export finished for Prod2013. Exported 1 records in 00:00:05.5
+2015-08-31 20:36:51 | Start importing data in Dev2015
+2015-08-31 20:36:51 | Importing account records.
+2015-08-31 20:36:56 | Error:The process cannot access the file 'C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\ReferenceDataTransporter\TestIntegration\ExecutionReports\ImportFailuresReport2015-8-31-20-36-16.xml' because it is being used by another process.
+2015-08-31 20:44:23 | Reference Data Transporter launched.

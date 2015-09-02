@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMToolkit.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:MSCRMToolKit.MSCRMToolKitProfile">
+            <summary>
+            MSCRMToolKit generic Profile
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKitProfile.cm">
+            <summary>
+            The Connections Manager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKitProfile.SourceConnection">
+            <summary>
+            The source connection
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKitProfile.TargetConnection">
+            <summary>
+            The target connection
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKitProfile.setSourceConneciton">
+            <summary>
+            Sets the source conneciton.
+            </summary>
+            <remarks>
+            The SourceConnectionName must be previously set.
+            </remarks>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKitProfile.getSourceConneciton">
+            <summary>
+            Gets the source conneciton.
+            </summary>
+            <returns>
+            The Source MSCRMConnection.
+            </returns>
+            <remarks>
+            The SourceConnectionName must be previously set.
+            </remarks>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKitProfile.setTargetConneciton">
+            <summary>
+            Sets the target conneciton.
+            </summary>
+            <remarks>
+            The TargetConnectionName must be previously set.
+            </remarks>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKitProfile.getTargetConneciton">
+            <summary>
+            Gets the target conneciton.
+            </summary>
+            <returns>
+            The Target MSCRMConnection.
+            </returns>
+            <remarks>
+            The TargetConnectionName must be previously set.
+            </remarks>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMToolKitProfile.ProfileName">
+            <summary>
+            Gets or sets the name of the profile.
+            </summary>
+            <value>
+            The name of the profile.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMToolKitProfile.SourceConnectionName">
+            <summary>
+            Gets or sets the name of the source connection.
+            </summary>
+            <value>
+            The name of the source connection.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMToolKitProfile.TargetConnectionName">
+            <summary>
+            Gets or sets the name of the target connection.
+            </summary>
+            <value>
+            The name of the target connection.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMToolKitProfileManager">
+            <summary>
+            MSCRMToolKitProfileManager class
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKitProfileManager.cm">
+            <summary>
+            The Connections Manager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMToolKitProfileManager._serviceProxy">
+            <summary>
+            The CRM service proxy
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMToolKitProfileManager.CreateXml(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Creates the FetchXML Query.
+            </summary>
+            <param name="xml">The FetchXMLQuery.</param>
+            <param name="cookie">The paging cookie.</param>
+            <param name="page">The page number.</param>
+            <param name="count">The records per page count.</param>
+            <returns>Formatted FechXML Query</returns>
+        </member>
+    </members>
+</doc>

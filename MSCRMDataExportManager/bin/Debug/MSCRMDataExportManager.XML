@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMDataExportManager</name>
+    </assembly>
+    <members>
+        <member name="T:MSCRMToolKit.MSCRMDataExportProfile">
+            <summary>
+            MSCRMDataExportProfile class extending MSCRMToolKitProfile
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMDataExportProfile.TotalExportedRecords">
+            <summary>
+            Gets or sets the total exported records.
+            </summary>
+            <value>
+            The total exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMDataExportProfile.FetchXMLQuery">
+            <summary>
+            Gets or sets the fetch XML query.
+            </summary>
+            <value>
+            The fetch XML query.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMDataExportProfile.LastRunAt">
+            <summary>
+            Gets or sets the last run at.
+            </summary>
+            <value>
+            The last run at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMDataExportProfile.FieldSeparator">
+            <summary>
+            Gets or sets the field separator.
+            </summary>
+            <value>
+            The field separator.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMDataExportProfile.DataSeparator">
+            <summary>
+            Gets or sets the data separator.
+            </summary>
+            <value>
+            The data separator.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMDataExportProfile.ExportFormat">
+            <summary>
+            Gets or sets the export format.
+            </summary>
+            <value>
+            The export format.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMDataExportProfile.Encoding">
+            <summary>
+            Gets or sets the encoding.
+            </summary>
+            <value>
+            The encoding.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.DataExportReport">
+            <summary>
+            Data Export Report
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.DataExportReport.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.DataExportReport"/> class.
+            </summary>
+            <param name="DataExportProfileName">Name of the data export profile.</param>
+        </member>
+        <member name="P:MSCRMToolKit.DataExportReport.DataExportProfileName">
+            <summary>
+            Gets or sets the name of the data export profile.
+            </summary>
+            <value>
+            The name of the data export profile.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.DataExportReport.DataExportStartedAt">
+            <summary>
+            Gets or sets the data export started at.
+            </summary>
+            <value>
+            The data export started at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.DataExportReport.DataExportFinishedAt">
+            <summary>
+            Gets or sets the data export finished at.
+            </summary>
+            <value>
+            The data export finished at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.DataExportReport.DataExportedIn">
+            <summary>
+            Gets or sets the data exported in.
+            </summary>
+            <value>
+            The data exported in.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.DataExportReport.TotalExportedRecords">
+            <summary>
+            Gets or sets the total exported records.
+            </summary>
+            <value>
+            The total exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.DataExportReport.DataExportCompleted">
+            <summary>
+            Gets or sets a value indicating whether [data export completed].
+            </summary>
+            <value>
+              <c>true</c> if [data export completed]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.StringMap">
+            <summary>
+            String Map
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.StringMap.Entity">
+            <summary>
+            Gets or sets the entity.
+            </summary>
+            <value>
+            The entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.StringMap.Attribute">
+            <summary>
+            Gets or sets the attribute.
+            </summary>
+            <value>
+            The attribute.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.StringMap.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+            <value>
+            The value.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.StringMap.Name">
+            <summary>
+            Gets or sets the name.
+            </summary>
+            <value>
+            The name.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.StringMap.LCID">
+            <summary>
+            Gets or sets the lcid.
+            </summary>
+            <value>
+            The lcid.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMDataExportManager">
+            <summary>
+            MSCRM Data Export Manager class extending MSCRMToolKitProfileManager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMDataExportManager.Profiles">
+            <summary>
+            The profiles
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMDataExportManager.Folder">
+            <summary>
+            The Workspace folder
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMDataExportManager.ConfigurationFileName">
+            <summary>
+            The configuration file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMDataExportManager.ReportFileName">
+            <summary>
+            The report file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMDataExportManager.ExportedDataFileName">
+            <summary>
+            The exported data file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMDataExportManager.ExportedRecordsNumber">
+            <summary>
+            The exported records number
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMDataExportManager.OptionSetValues">
+            <summary>
+            The option set values
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.MSCRMDataExportManager"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.CreateProfile(MSCRMToolKit.MSCRMDataExportProfile)">
+            <summary>
+            Creates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.UpdateProfile(MSCRMToolKit.MSCRMDataExportProfile)">
+            <summary>
+            Updates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <exception cref="T:System.Exception">Data Export Profile Update failed. The Data Export Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.DeleteProfile(MSCRMToolKit.MSCRMDataExportProfile)">
+            <summary>
+            Deletes the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <exception cref="T:System.Exception">Data Export Profile deletion failed. The Data Export Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.GetProfile(System.String)">
+            <summary>
+            Gets the profile.
+            </summary>
+            <param name="profileName">Name of the profile.</param>
+            <returns>The MSCRM Data Export Profile</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.RunProfile(MSCRMToolKit.MSCRMDataExportProfile)">
+            <summary>
+            Runs the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.ReadProfiles">
+            <summary>
+            Reads the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.WriteProfiles">
+            <summary>
+            Writes the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.Export(MSCRMToolKit.MSCRMDataExportProfile,System.String)">
+            <summary>
+            Exports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="DataExportReportFileName">Name of the data export report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.WriteReport(MSCRMToolKit.DataExportReport,System.String)">
+            <summary>
+            Writes the report.
+            </summary>
+            <param name="der">The der.</param>
+            <param name="DataExportReportFileName">Name of the data export report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.ReadReport(System.String)">
+            <summary>
+            Reads the report.
+            </summary>
+            <param name="DataExportReportFileName">Name of the data export report file.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.WriteCSV(Microsoft.Xrm.Sdk.EntityCollection,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},MSCRMToolKit.MSCRMDataExportProfile)">
+            <summary>
+            Writes the CSV.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.WriteXML(Microsoft.Xrm.Sdk.EntityCollection,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},MSCRMToolKit.MSCRMDataExportProfile)">
+            <summary>
+            Writes the XML.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.WriteXMLSpreadsheet2003(Microsoft.Xrm.Sdk.EntityCollection,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},MSCRMToolKit.MSCRMDataExportProfile)">
+            <summary>
+            Writes the XML spreadsheet 2003.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.getFormattedValue(Microsoft.Xrm.Sdk.Entity,System.String)">
+            <summary>
+            Gets the formatted value.
+            </summary>
+            <param name="entity">The entity.</param>
+            <param name="attributeName">Name of the attribute.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMDataExportManager.GetEncoding(System.String)">
+            <summary>
+            Get encoding from a string
+            </summary>
+            <param name="encodingString">Encoding string</param>
+            <returns>Encoding</returns>
+        </member>
+    </members>
+</doc>

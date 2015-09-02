@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMWorkflowExecutionManagerCMD.exe.config
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMWorkflowExecutionManagerCMD.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMWorkflowExecutionManagerCMD.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\obj\x86\Debug\MSCRMWorkflowExecutionManagerCMD.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\obj\x86\Debug\MSCRMWorkflowExecutionManagerCMD.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\obj\x86\Debug\MSCRMWorkflowExecutionManagerCMD.pdb

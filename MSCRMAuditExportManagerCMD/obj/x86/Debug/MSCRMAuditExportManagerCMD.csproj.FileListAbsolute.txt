@@ -1,0 +1,6 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManagerCMD.exe.config
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManagerCMD.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMAuditExportManagerCMD.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\obj\x86\Debug\MSCRMAuditExportManagerCMD.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\obj\x86\Debug\MSCRMAuditExportManagerCMD.exe
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManagerCMD\obj\x86\Debug\MSCRMAuditExportManagerCMD.pdb

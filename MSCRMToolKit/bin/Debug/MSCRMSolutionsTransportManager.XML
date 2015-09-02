@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMSolutionsTransportManager</name>
+    </assembly>
+    <members>
+        <member name="T:MSCRMToolKit.MSCRMSolution">
+            <summary>
+            MSCRM Solution
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolution.Select">
+            <summary>
+            Gets or sets a value indicating whether this <see cref="T:MSCRMToolKit.MSCRMSolution"/> is select.
+            </summary>
+            <value>
+              <c>true</c> if select; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolution.DisplayName">
+            <summary>
+            Gets or sets the display name.
+            </summary>
+            <value>
+            The display name.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolution.UniqueName">
+            <summary>
+            Gets or sets the name of the unique.
+            </summary>
+            <value>
+            The name of the unique.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolution.Publisher">
+            <summary>
+            Gets or sets the publisher.
+            </summary>
+            <value>
+            The publisher.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolution.Version">
+            <summary>
+            Gets or sets the version.
+            </summary>
+            <value>
+            The version.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolution.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+            <value>
+            The description.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMSolutionsTransportManager">
+            <summary>
+            MSCRM Solutions Transport Manager class extending MSCRMToolKitProfileManager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMSolutionsTransportManager.Profiles">
+            <summary>
+            The profiles
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMSolutionsTransportManager.Folder">
+            <summary>
+            The Workspace folder
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMSolutionsTransportManager.ConfigurationFileName">
+            <summary>
+            The configuration file name
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.MSCRMSolutionsTransportManager"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.CreateProfile(MSCRMToolKit.MSCRMSolutionsTransportProfile)">
+            <summary>
+            Creates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.UpdateProfile(MSCRMToolKit.MSCRMSolutionsTransportProfile)">
+            <summary>
+            Updates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <exception cref="T:System.Exception">Solutions Transport Profile Update failed. The Solution Transport Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.DeleteProfile(MSCRMToolKit.MSCRMSolutionsTransportProfile)">
+            <summary>
+            Deletes the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <exception cref="T:System.Exception">Solutions Transport Profile deletion failed. The Solution Transport Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.GetProfile(System.String)">
+            <summary>
+            Gets the profile.
+            </summary>
+            <param name="profileName">Name of the profile.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.RunProfile(MSCRMToolKit.MSCRMSolutionsTransportProfile)">
+            <summary>
+            Runs the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.ReadProfiles">
+            <summary>
+            Reads the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.WriteProfiles">
+            <summary>
+            Writes the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.ReadSolutions(System.String)">
+            <summary>
+            Reads the solutions.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns>List of solutions.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.WriteSolutions(System.String,System.Collections.Generic.List{MSCRMToolKit.MSCRMSolution})">
+            <summary>
+            Writes the solutions.
+            </summary>
+            <param name="sourceName">Name of the source.</param>
+            <param name="Solutions">The solutions.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.DownloadSolutions(MSCRMToolKit.MSCRMConnection)">
+            <summary>
+            Downloads the solutions.
+            </summary>
+            <param name="connection">The connection.</param>
+            <returns>List of solutions.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.Export(MSCRMToolKit.MSCRMSolutionsTransportProfile)">
+            <summary>
+            Exports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMSolutionsTransportManager.Import(MSCRMToolKit.MSCRMSolutionsTransportProfile)">
+            <summary>
+            Imports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMSolutionsTransportProfile">
+            <summary>
+            MSCRMSolutionsTransportProfile class extending MSCRMToolKitProfile
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.Operation">
+            <summary>
+            Gets or sets the operation.
+            </summary>
+            <value>
+            The operation.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.SolutionExportFolder">
+            <summary>
+            Gets or sets the solution export folder.
+            </summary>
+            <value>
+            The solution export folder.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.SelectedSolutionsNames">
+            <summary>
+            Gets or sets the selected solutions names.
+            </summary>
+            <value>
+            The selected solutions names.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportAsManaged">
+            <summary>
+            Gets or sets a value indicating whether [export as managed].
+            </summary>
+            <value>
+              <c>true</c> if [export as managed]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.PublishAllCustomizationsSource">
+            <summary>
+            Gets or sets a value indicating whether [publish all customizations source].
+            </summary>
+            <value>
+            <c>true</c> if [publish all customizations source]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportAutoNumberingSettings">
+            <summary>
+            Gets or sets a value indicating whether [export automatic numbering settings].
+            </summary>
+            <value>
+            <c>true</c> if [export automatic numbering settings]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportCalendarSettings">
+            <summary>
+            Gets or sets a value indicating whether [export calendar settings].
+            </summary>
+            <value>
+            <c>true</c> if [export calendar settings]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportCustomizationSettings">
+            <summary>
+            Gets or sets a value indicating whether [export customization settings].
+            </summary>
+            <value>
+            <c>true</c> if [export customization settings]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportEmailTrackingSettings">
+            <summary>
+            Gets or sets a value indicating whether [export email tracking settings].
+            </summary>
+            <value>
+            <c>true</c> if [export email tracking settings]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportGeneralSettings">
+            <summary>
+            Gets or sets a value indicating whether [export general settings].
+            </summary>
+            <value>
+            <c>true</c> if [export general settings]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportIsvConfig">
+            <summary>
+            Gets or sets a value indicating whether [export isv configuration].
+            </summary>
+            <value>
+            <c>true</c> if [export isv configuration]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportMarketingSettings">
+            <summary>
+            Gets or sets a value indicating whether [export marketing settings].
+            </summary>
+            <value>
+            <c>true</c> if [export marketing settings]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportOutlookSynchronizationSettings">
+            <summary>
+            Gets or sets a value indicating whether [export outlook synchronization settings].
+            </summary>
+            <value>
+            <c>true</c> if [export outlook synchronization settings]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.ExportRelationshipRoles">
+            <summary>
+            Gets or sets a value indicating whether [export relationship roles].
+            </summary>
+            <value>
+            <c>true</c> if [export relationship roles]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.PublishAllCustomizationsTarget">
+            <summary>
+            Gets or sets a value indicating whether [publish all customizations target].
+            </summary>
+            <value>
+            <c>true</c> if [publish all customizations target]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.OverwriteUnmanagedCustomizations">
+            <summary>
+            Gets or sets a value indicating whether [overwrite unmanaged customizations].
+            </summary>
+            <value>
+            <c>true</c> if [overwrite unmanaged customizations]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.SolutionsToImport">
+            <summary>
+            Gets or sets the solutions to import.
+            </summary>
+            <value>
+            The solutions to import.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMSolutionsTransportProfile.PublishWorkflows">
+            <summary>
+            Gets or sets a value indicating whether [publish workflows].
+            </summary>
+            <value>
+              <c>true</c> if [publish workflows]; otherwise, <c>false</c>.
+            </value>
+        </member>
+    </members>
+</doc>

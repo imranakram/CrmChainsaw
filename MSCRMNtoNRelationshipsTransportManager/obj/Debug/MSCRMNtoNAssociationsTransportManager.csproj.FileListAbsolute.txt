@@ -1,0 +1,10 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.XML
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManager\obj\Debug\MSCRMNtoNAssociationsTransportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManager\obj\Debug\MSCRMNtoNAssociationsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.XML
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMToolKit\bin\Debug\MSCRMNtoNAssociationsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManager\obj\Debug\MSCRMNtoNAssociationsTransportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMNtoNRelationshipsTransportManager\obj\Debug\MSCRMNtoNAssociationsTransportManager.pdb

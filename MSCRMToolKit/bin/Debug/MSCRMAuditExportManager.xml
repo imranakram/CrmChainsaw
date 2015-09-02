@@ -1,0 +1,709 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMAuditExportManager</name>
+    </assembly>
+    <members>
+        <member name="T:Audit">
+            <summary>
+            Track changes to records for analysis, record keeping, and compliance.
+            </summary>
+        </member>
+        <member name="F:Audit.EntityLogicalName">
+            <summary>
+            The entity logical name
+            </summary>
+        </member>
+        <member name="F:Audit.EntityTypeCode">
+            <summary>
+            The entity type code
+            </summary>
+        </member>
+        <member name="M:Audit.#ctor">
+            <summary>
+            Default Constructor.
+            </summary>
+        </member>
+        <member name="E:Audit.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="E:Audit.PropertyChanging">
+            <summary>
+            Occurs when a property value is changing.
+            </summary>
+        </member>
+        <member name="P:Audit.Action">
+            <summary>
+            Actions the user can perform that cause a change
+            </summary>
+        </member>
+        <member name="P:Audit.AttributeMask">
+            <summary>
+            Contains a CSV of the ColumnNumber metadata property of attributes
+            </summary>
+        </member>
+        <member name="P:Audit.AuditId">
+            <summary>
+            Unique identifier of the auditing instance
+            </summary>
+        </member>
+        <member name="P:Audit.Id">
+            <summary>
+            Gets or sets ID_of_record represented by this entity instance.
+            </summary>
+            <returns>Type: Returns_Guid
+            The ID of the record (entity instance).</returns>
+        </member>
+        <member name="P:Audit.CallingUserId">
+            <summary>
+            Unique identifier of the calling user in case of an impersonated call
+            </summary>
+        </member>
+        <member name="P:Audit.CreatedOn">
+            <summary>
+            Date and time when the audit record was created.
+            </summary>
+        </member>
+        <member name="P:Audit.ObjectId">
+            <summary>
+            Unique identifier of the record that is being audited
+            </summary>
+        </member>
+        <member name="P:Audit.Operation">
+            <summary>
+            The action that causes the audit--it will be create, delete, or update
+            </summary>
+        </member>
+        <member name="P:Audit.TransactionId">
+            <summary>
+            Unique identifier for multiple changes that are part of a single operation; this field contains the same GUID for all the audit rows generated in a single transaction
+            </summary>
+        </member>
+        <member name="P:Audit.UserId">
+            <summary>
+            Unique identifier of the user who caused a change
+            </summary>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMAuditExportManager">
+            <summary>
+            MSCRM Audit Export Manager class extending MSCRMToolKitProfileManager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMAuditExportManager.Profiles">
+            <summary>
+            The profiles
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMAuditExportManager.Folder">
+            <summary>
+            The Workspace folder
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMAuditExportManager.ConfigurationFileName">
+            <summary>
+            The configuration file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMAuditExportManager.ReportFileName">
+            <summary>
+            The report file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMAuditExportManager.fileName">
+            <summary>
+            The file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMAuditExportManager.encoding">
+            <summary>
+            The encoding
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMAuditExportManager.es">
+            <summary>
+            The Environment Audit Structure
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.MSCRMAuditExportManager"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.CreateProfile(MSCRMToolKit.MSCRMAuditExportProfile)">
+            <summary>
+            Creates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.UpdateProfile(MSCRMToolKit.MSCRMAuditExportProfile)">
+            <summary>
+            Updates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <exception cref="T:System.Exception">Audit Export Profile Update failed. The Audit Export Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.DeleteProfile(MSCRMToolKit.MSCRMAuditExportProfile)">
+            <summary>
+            Deletes the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <exception cref="T:System.Exception">Audit Export Profile deletion failed. The Audit Export Profile  + profile.ProfileName +  was not found in the configuration file.</exception>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.GetProfile(System.String)">
+            <summary>
+            Gets the profile.
+            </summary>
+            <param name="profileName">Name of the profile.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.RunProfile(MSCRMToolKit.MSCRMAuditExportProfile)">
+            <summary>
+            Runs the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.ReadProfiles">
+            <summary>
+            Reads the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteProfiles">
+            <summary>
+            Writes the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.Export(MSCRMToolKit.MSCRMAuditExportProfile)">
+            <summary>
+            Exports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.ExportEntity(MSCRMToolKit.MSCRMAuditExportProfile,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},MSCRMToolKit.SelectedAuditEntity)">
+            <summary>
+            Exports the entity.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="fetchXml">The fetch XML query.</param>
+            <param name="PrimaryNameAttribute">The primary name attribute.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+            <param name="sae">The sae.</param>
+            <returns>The number of exported records</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.DisplayAuditDetails(Microsoft.Crm.Sdk.Messages.AuditDetail,MSCRMToolKit.MSCRMAuditExportProfile,System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Displays the audit details.
+            </summary>
+            <param name="detail">The detail.</param>
+            <param name="profile">The profile.</param>
+            <param name="ObjectName">Name of the object.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.downloadEnvAuditStructure(System.String)">
+            <summary>
+            Downloads the env audit structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns>The Environment Audit Structure.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.ReadEnvStructure(System.String)">
+            <summary>
+            Reads the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns>The Environment Audit Structure.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteEnvStructure(MSCRMToolKit.EnvAuditStructure)">
+            <summary>
+            Writes the env structure.
+            </summary>
+            <param name="str">The Environment Audit Structure.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteCSV(Microsoft.Xrm.Sdk.EntityCollection,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes the CSV.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteXML(Microsoft.Xrm.Sdk.EntityCollection,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes the XML.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteXMLSpreadsheet2003(Microsoft.Xrm.Sdk.EntityCollection,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes the XML spreadsheet2003.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteCSVAuditDetail(System.Collections.Generic.List{MSCRMToolKit.AuditDetailLine},System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes the CSV audit detail.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteXMLAuditDetail(System.Collections.Generic.List{MSCRMToolKit.AuditDetailLine},System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes the XML audit detail.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.WriteXMLSpreadsheet2003AuditDetail(System.Collections.Generic.List{MSCRMToolKit.AuditDetailLine},System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Writes the XML spreadsheet2003 audit detail.
+            </summary>
+            <param name="items">The items.</param>
+            <param name="path">The path.</param>
+            <param name="columns">The columns.</param>
+            <param name="DisplayedColumns">The displayed columns.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.getFormattedValue(Microsoft.Xrm.Sdk.Entity,System.String)">
+            <summary>
+            Gets the formatted value.
+            </summary>
+            <param name="entity">The entity.</param>
+            <param name="attributeName">Name of the attribute.</param>
+            <returns>The formatted value.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.getOperationLabel(MSCRMToolKit.EnvAuditStructure,System.Int32)">
+            <summary>
+            Gets the operation label.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="Value">The value.</param>
+            <returns>The operation label.</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportManager.getActionLabel(MSCRMToolKit.EnvAuditStructure,System.Int32)">
+            <summary>
+            Gets the action label.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="Value">The value.</param>
+            <returns>The action label.</returns>
+        </member>
+        <member name="T:MSCRMToolKit.MSCRMAuditExportProfile">
+            <summary>
+            MSCRMAuditExportProfile class extending MSCRMToolKitProfile
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMAuditExportProfile.getSelectedEntity(System.String)">
+            <summary>
+            Gets the selected entity.
+            </summary>
+            <param name="selectedEntityName">Name of the selected entity.</param>
+            <returns>The Selected Audit Entity</returns>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AuditType">
+            <summary>
+            Gets or sets the type of the audit.
+            </summary>
+            <value>
+            The type of the audit.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.LastRunAt">
+            <summary>
+            Gets or sets the last run at.
+            </summary>
+            <value>
+            The last run at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.ExportFormat">
+            <summary>
+            Gets or sets the export format.
+            </summary>
+            <value>
+            The export format.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.Encoding">
+            <summary>
+            Gets or sets the encoding.
+            </summary>
+            <value>
+            The encoding.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AllEntitiesSelected">
+            <summary>
+            Gets or sets a value indicating whether [all entities selected].
+            </summary>
+            <value>
+              <c>true</c> if [all entities selected]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.SelectedEntities">
+            <summary>
+            Gets or sets the selected entities.
+            </summary>
+            <value>
+            The selected entities.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AllUsersSelected">
+            <summary>
+            Gets or sets a value indicating whether [all users selected].
+            </summary>
+            <value>
+              <c>true</c> if [all users selected]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.SelectedUsers">
+            <summary>
+            Gets or sets the selected users.
+            </summary>
+            <value>
+            The selected users.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AllOperationsSelected">
+            <summary>
+            Gets or sets a value indicating whether [all operations selected].
+            </summary>
+            <value>
+            <c>true</c> if [all operations selected]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.SelectedOperations">
+            <summary>
+            Gets or sets the selected operations.
+            </summary>
+            <value>
+            The selected operations.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AllActionsSelected">
+            <summary>
+            Gets or sets a value indicating whether [all actions selected].
+            </summary>
+            <value>
+              <c>true</c> if [all actions selected]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.SelectedActions">
+            <summary>
+            Gets or sets the selected actions.
+            </summary>
+            <value>
+            The selected actions.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AuditRecordCreatedOnFilter">
+            <summary>
+            Gets or sets the audit record created on filter.
+            </summary>
+            <value>
+            The audit record created on filter.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AuditRecordCreatedOnFilterLastX">
+            <summary>
+            Gets or sets the audit record created on filter last x.
+            </summary>
+            <value>
+            The audit record created on filter last x.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AuditRecordCreatedOnFilterFrom">
+            <summary>
+            Gets or sets the audit record created on filter from.
+            </summary>
+            <value>
+            The audit record created on filter from.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.MSCRMAuditExportProfile.AuditRecordCreatedOnFilterTo">
+            <summary>
+            Gets or sets the audit record created on filter to.
+            </summary>
+            <value>
+            The audit record created on filter to.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.EnvAuditEntity">
+            <summary>
+            Environment Audit Entity
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.EnvAuditEntity.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.EnvAuditEntity"/> class.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditEntity.LogicalName">
+            <summary>
+            Gets or sets the entity logical name.
+            </summary>
+            <value>
+            The entity logical name.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditEntity.ObjectTypeCode">
+            <summary>
+            Gets or sets the object type code.
+            </summary>
+            <value>
+            The object type code.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditEntity.PrimaryNameAttribute">
+            <summary>
+            Gets or sets the primary name attribute.
+            </summary>
+            <value>
+            The primary name attribute.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditEntity.Attributes">
+            <summary>
+            Gets or sets the attributes.
+            </summary>
+            <value>
+            The attributes.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.EnvAuditStructure">
+            <summary>
+            Environment Audit Structure
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.EnvAuditStructure.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.EnvAuditStructure"/> class.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditStructure.connectionName">
+            <summary>
+            Gets or sets the name of the connection.
+            </summary>
+            <value>
+            The name of the connection.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditStructure.Entities">
+            <summary>
+            Gets or sets the entities.
+            </summary>
+            <value>
+            The entities.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditStructure.Users">
+            <summary>
+            Gets or sets the users.
+            </summary>
+            <value>
+            The users.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditStructure.Operations">
+            <summary>
+            Gets or sets the operations.
+            </summary>
+            <value>
+            The operations.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvAuditStructure.Actions">
+            <summary>
+            Gets or sets the actions.
+            </summary>
+            <value>
+            The actions.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.AuditUser">
+            <summary>
+            Audit User
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.AuditUser.Id">
+            <summary>
+            Gets or sets the identifier.
+            </summary>
+            <value>
+            The identifier.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditUser.FullName">
+            <summary>
+            Gets or sets the full name.
+            </summary>
+            <value>
+            The full name.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.SelectedAuditEntity">
+            <summary>
+            Selected Audit Entity
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedAuditEntity.LogicalName">
+            <summary>
+            Gets or sets the entity logical name.
+            </summary>
+            <value>
+            The entity logical name.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedAuditEntity.ObjectTypeCode">
+            <summary>
+            Gets or sets the object type code.
+            </summary>
+            <value>
+            The object type code.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedAuditEntity.Filter">
+            <summary>
+            Gets or sets the filter.
+            </summary>
+            <value>
+            The filter.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedAuditEntity.SelectedAttributes">
+            <summary>
+            Gets or sets the selected attributes.
+            </summary>
+            <value>
+            The selected attributes.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.AuditDetailLine">
+            <summary>
+            Audit Detail Line class extending Microsoft.Xrm.Sdk.Entity
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.AuditDetailLine.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.AuditDetailLine"/> class.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.createdon">
+            <summary>
+            Gets or sets the createdon.
+            </summary>
+            <value>
+            The createdon.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.userid">
+            <summary>
+            Gets or sets the userid.
+            </summary>
+            <value>
+            The userid.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.UserName">
+            <summary>
+            Gets or sets the name of the user.
+            </summary>
+            <value>
+            The name of the user.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.objecttypecode">
+            <summary>
+            Gets or sets the objecttypecode.
+            </summary>
+            <value>
+            The objecttypecode.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.objectid">
+            <summary>
+            Gets or sets the objectid.
+            </summary>
+            <value>
+            The objectid.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.RecordLogicalName">
+            <summary>
+            Gets or sets the name of the record logical.
+            </summary>
+            <value>
+            The name of the record logical.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.RecordName">
+            <summary>
+            Gets or sets the name of the record.
+            </summary>
+            <value>
+            The name of the record.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.action">
+            <summary>
+            Gets or sets the action.
+            </summary>
+            <value>
+            The action.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.operation">
+            <summary>
+            Gets or sets the operation.
+            </summary>
+            <value>
+            The operation.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.key">
+            <summary>
+            Gets or sets the key.
+            </summary>
+            <value>
+            The key.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.oldValue">
+            <summary>
+            Gets or sets the old value.
+            </summary>
+            <value>
+            The old value.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.newValue">
+            <summary>
+            Gets or sets the new value.
+            </summary>
+            <value>
+            The new value.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.AuditDetailLine.TransactionId">
+            <summary>
+            Gets or sets the transaction identifier.
+            </summary>
+            <value>
+            The transaction identifier.
+            </value>
+        </member>
+    </members>
+</doc>

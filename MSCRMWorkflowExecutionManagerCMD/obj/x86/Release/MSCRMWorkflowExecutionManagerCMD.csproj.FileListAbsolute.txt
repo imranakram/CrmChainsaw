@@ -1,0 +1,14 @@
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMWorkflowExecutionManagerCMD.exe.config
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMWorkflowExecutionManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMWorkflowExecutionManagerCMD.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMWorkflowExecutionManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\bin\Release\MSCRMWorkflowExecutionManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\obj\x86\Release\MSCRMWorkflowExecutionManagerCMD.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\obj\x86\Release\MSCRMWorkflowExecutionManagerCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMWorkflowExecutionManagerCMD\obj\x86\Release\MSCRMWorkflowExecutionManagerCMD.pdb

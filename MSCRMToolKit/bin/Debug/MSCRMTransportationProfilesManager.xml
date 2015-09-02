@@ -1,0 +1,564 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MSCRMTransportationProfilesManager</name>
+    </assembly>
+    <members>
+        <member name="T:MSCRMToolKit.MSCRMTransportationProfilesManager">
+            <summary>
+            MSCRM Transportation Profiles Manager class extending MSCRMToolKitProfileManager
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMTransportationProfilesManager.Profiles">
+            <summary>
+            The Transportation Profiles
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMTransportationProfilesManager.Folder">
+            <summary>
+            The Workspace folder
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMTransportationProfilesManager.ConfigurationFileName">
+            <summary>
+            The configuration file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMTransportationProfilesManager.ReportFileName">
+            <summary>
+            The report file name
+            </summary>
+        </member>
+        <member name="F:MSCRMToolKit.MSCRMTransportationProfilesManager.importFailuresReportFileName">
+            <summary>
+            The import failures report file name
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.MSCRMTransportationProfilesManager"/> class.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.CreateProfile(MSCRMToolKit.TransportationProfile)">
+            <summary>
+            Creates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.UpdateProfile(MSCRMToolKit.TransportationProfile)">
+            <summary>
+            Updates the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.DeleteProfile(MSCRMToolKit.TransportationProfile)">
+            <summary>
+            Deletes the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.GetProfile(System.String)">
+            <summary>
+            Gets the profile.
+            </summary>
+            <param name="profileName">Name of the profile.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.RunProfile(MSCRMToolKit.TransportationProfile)">
+            <summary>
+            Runs the profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.downloadEnvStructure(System.String)">
+            <summary>
+            Downloads the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns>The Environment Structure</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.ReadEnvStructure(System.String)">
+            <summary>
+            Reads the env structure.
+            </summary>
+            <param name="connectionName">Name of the connection.</param>
+            <returns>The Environment Structure</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.ExportEntity(MSCRMToolKit.TransportationProfile,System.String)">
+            <summary>
+            Exports the entity.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="fetchXml">The fetch XML.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.updateTransportReport(MSCRMToolKit.TransportReport,MSCRMToolKit.SelectedEntity,System.Int32,System.Int32,System.DateTime)">
+            <summary>
+            Updates the transport report.
+            </summary>
+            <param name="report">The report.</param>
+            <param name="ee">The ee.</param>
+            <param name="importedRecordsForEntity">The imported records for entity.</param>
+            <param name="importFailuresForEntity">The import failures for entity.</param>
+            <param name="entityImportStartDT">The entity import start dt.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.WriteTransportReport(MSCRMToolKit.TransportReport,System.String)">
+            <summary>
+            Writes the transport report.
+            </summary>
+            <param name="tr">The Transport Report.</param>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.ReadTransportReport(System.String)">
+            <summary>
+            Reads the transport report.
+            </summary>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+            <returns>The Transport Report</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.WriteNewImportFailureLine(MSCRMToolKit.ImportFailure,System.String)">
+            <summary>
+            Writes the new import failure line.
+            </summary>
+            <param name="failure">The failure.</param>
+            <param name="importFailuresReportFileName">Name of the import failures report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.ReadImportFailuresReport(System.String)">
+            <summary>
+            Reads the import failures report.
+            </summary>
+            <param name="importFailuresReportFileName">Name of the import failures report file.</param>
+            <returns>The List of Import Failures</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.MapRecords(MSCRMToolKit.TransportationProfile,Microsoft.Xrm.Sdk.Entity)">
+            <summary>
+            Maps the records.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="entity">The entity.</param>
+            <returns>The Mapped Record</returns>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.ReadProfiles">
+            <summary>
+            Reads the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.WriteProfiles">
+            <summary>
+            Writes the profiles.
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.WriteEnvStructure(MSCRMToolKit.EnvStructure)">
+            <summary>
+            Writes the environment structure.
+            </summary>
+            <param name="str">The Environment Structure.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.Export(MSCRMToolKit.TransportationProfile,System.String)">
+            <summary>
+            Exports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+        </member>
+        <member name="M:MSCRMToolKit.MSCRMTransportationProfilesManager.Import(MSCRMToolKit.TransportationProfile,System.String)">
+            <summary>
+            Imports the specified profile.
+            </summary>
+            <param name="profile">The profile.</param>
+            <param name="transportReportFileName">Name of the transport report file.</param>
+        </member>
+        <member name="T:MSCRMToolKit.EnvEntity">
+            <summary>
+            Environment Entity
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.EnvEntity.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.EnvEntity"/> class.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.EnvEntity.EntityName">
+            <summary>
+            Gets or sets the name of the Environment entity.
+            </summary>
+            <value>
+            The name of the Environment entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvEntity.Attributes">
+            <summary>
+            Gets or sets the attributes.
+            </summary>
+            <value>
+            The attributes.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.EnvStructure">
+            <summary>
+            Environment Structure
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.EnvStructure.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.EnvStructure"/> class.
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.EnvStructure.connectionName">
+            <summary>
+            Gets or sets the name of the connection.
+            </summary>
+            <value>
+            The name of the connection.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.EnvStructure.Entities">
+            <summary>
+            Gets or sets the Environment entities.
+            </summary>
+            <value>
+            The Environment entities.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.SelectedEntity">
+            <summary>
+            Selected Entity for transport
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedEntity.EntityName">
+            <summary>
+            Gets or sets the name of the entity.
+            </summary>
+            <value>
+            The name of the entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedEntity.ExportedRecords">
+            <summary>
+            Gets or sets the exported records.
+            </summary>
+            <value>
+            The exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedEntity.TransportOrder">
+            <summary>
+            Gets or sets the transport order.
+            </summary>
+            <value>
+            The transport order.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedEntity.Filter">
+            <summary>
+            Gets or sets the filter.
+            </summary>
+            <value>
+            The filter.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.SelectedEntity.IgnoredAttributes">
+            <summary>
+            Gets or sets the ignored attributes.
+            </summary>
+            <value>
+            The ignored attributes.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.TransportReport">
+            <summary>
+            Transport Report
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.TransportReport.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MSCRMToolKit.TransportReport"/> class.
+            </summary>
+            <param name="TransportProfileName">Name of the transport profile.</param>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TransportProfileName">
+            <summary>
+            Gets or sets the name of the transport profile.
+            </summary>
+            <value>
+            The name of the transport profile.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TransportStartedAt">
+            <summary>
+            Gets or sets the transport started at.
+            </summary>
+            <value>
+            The transport started at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TransportFinishedAt">
+            <summary>
+            Gets or sets the transport finished at.
+            </summary>
+            <value>
+            The transport finished at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TransportedIn">
+            <summary>
+            Gets or sets the transported in.
+            </summary>
+            <value>
+            The transported in.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TotalExportedRecords">
+            <summary>
+            Gets or sets the total exported records.
+            </summary>
+            <value>
+            The total exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TotalImportedRecords">
+            <summary>
+            Gets or sets the total imported records.
+            </summary>
+            <value>
+            The total imported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TotalImportFailures">
+            <summary>
+            Gets or sets the total import failures.
+            </summary>
+            <value>
+            The total import failures.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.TransportCompleted">
+            <summary>
+            Gets or sets a value indicating whether [transport completed].
+            </summary>
+            <value>
+              <c>true</c> if [transport completed]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReport.ReportLines">
+            <summary>
+            Gets or sets the report lines.
+            </summary>
+            <value>
+            The report lines.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.TransportReportLine">
+            <summary>
+            Transport Report Line
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.Entity">
+            <summary>
+            Gets or sets the entity.
+            </summary>
+            <value>
+            The entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ExportedRecords">
+            <summary>
+            Gets or sets the exported records.
+            </summary>
+            <value>
+            The exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ExportStartedAt">
+            <summary>
+            Gets or sets the export started at.
+            </summary>
+            <value>
+            The export started at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ExportFinishedAt">
+            <summary>
+            Gets or sets the export finished at.
+            </summary>
+            <value>
+            The export finished at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ExportedIn">
+            <summary>
+            Gets or sets the exported in.
+            </summary>
+            <value>
+            The exported in.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ImportedRecords">
+            <summary>
+            Gets or sets the imported records.
+            </summary>
+            <value>
+            The imported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ImportFailures">
+            <summary>
+            Gets or sets the import failures.
+            </summary>
+            <value>
+            The import failures.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ImportStartedAt">
+            <summary>
+            Gets or sets the import started at.
+            </summary>
+            <value>
+            The import started at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ImportFinishedAt">
+            <summary>
+            Gets or sets the import finished at.
+            </summary>
+            <value>
+            The import finished at.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportReportLine.ImportedIn">
+            <summary>
+            Gets or sets the import time.
+            </summary>
+            <value>
+            The import time.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.TransportationProfile">
+            <summary>
+            TransportationProfile class extending MSCRMToolKitProfile
+            </summary>
+        </member>
+        <member name="M:MSCRMToolKit.TransportationProfile.getSelectedEntity(System.String)">
+            <summary>
+            Gets the selected entity.
+            </summary>
+            <param name="selectedEntityName">Name of the selected entity.</param>
+            <returns>The selected entity</returns>
+        </member>
+        <member name="P:MSCRMToolKit.TransportationProfile.Operation">
+            <summary>
+            Gets or sets the operation.
+            </summary>
+            <value>
+            The operation.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportationProfile.ImportMode">
+            <summary>
+            Gets or sets the import mode.
+            </summary>
+            <value>
+            The import mode.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportationProfile.SelectedEntities">
+            <summary>
+            Gets or sets the selected entities.
+            </summary>
+            <value>
+            The selected entities.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportationProfile.TotalExportedRecords">
+            <summary>
+            Gets or sets the total exported records.
+            </summary>
+            <value>
+            The total exported records.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.TransportationProfile.RecordMappings">
+            <summary>
+            Gets or sets the record mappings.
+            </summary>
+            <value>
+            The record mappings.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.ImportFailure">
+            <summary>
+            Import Failure
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.ImportFailure.CreatedOn">
+            <summary>
+            Gets or sets the creation date.
+            </summary>
+            <value>
+            The creation date.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.ImportFailure.Reason">
+            <summary>
+            Gets or sets the reason.
+            </summary>
+            <value>
+            The reason.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.ImportFailure.EntityName">
+            <summary>
+            Gets or sets the name of the entity.
+            </summary>
+            <value>
+            The name of the entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.ImportFailure.Operation">
+            <summary>
+            Gets or sets the operation.
+            </summary>
+            <value>
+            The operation.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.ImportFailure.Url">
+            <summary>
+            Gets or sets the URL of the Source record.
+            </summary>
+            <value>
+            The URL of the Source record.
+            </value>
+        </member>
+        <member name="T:MSCRMToolKit.RecordMapping">
+            <summary>
+            Records Mapping 
+            </summary>
+        </member>
+        <member name="P:MSCRMToolKit.RecordMapping.EntityName">
+            <summary>
+            Gets or sets the name of the entity.
+            </summary>
+            <value>
+            The name of the entity.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.RecordMapping.SourceRecordId">
+            <summary>
+            Gets or sets the source record identifier.
+            </summary>
+            <value>
+            The source record identifier.
+            </value>
+        </member>
+        <member name="P:MSCRMToolKit.RecordMapping.TargetRecordId">
+            <summary>
+            Gets or sets the target record identifier.
+            </summary>
+            <value>
+            The target record identifier.
+            </value>
+        </member>
+    </members>
+</doc>

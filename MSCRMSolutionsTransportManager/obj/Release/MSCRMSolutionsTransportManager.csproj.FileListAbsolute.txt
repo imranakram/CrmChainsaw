@@ -1,0 +1,11 @@
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\MSCRMSolutionsTransportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\MSCRMSolutionsTransportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\bin\Release\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Release\MSCRMSolutionsTransportManager.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Release\MSCRMSolutionsTransportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMSolutionsTransportManager\obj\Release\MSCRMSolutionsTransportManager.pdb

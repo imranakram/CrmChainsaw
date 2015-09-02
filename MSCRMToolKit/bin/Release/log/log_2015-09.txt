@@ -1,0 +1,108 @@
+/////////////////////////   L O G    F I L E   /////////////////////////
+________________________________________________________________________
+
+2015-09-02 15:06:43 | Reference Data Transporter launched.
+2015-09-02 15:07:06 | Reference Data Transporter launched.
+2015-09-02 15:07:15 | Transportation Profile Test saved.
+2015-09-02 15:07:18 | Transportation Profile Test saved.
+2015-09-02 15:07:18 | Running Transportation Profile: Test
+2015-09-02 15:07:25 | Start exporting data from Crm2013Prod
+2015-09-02 15:07:25 | Exporting data for entity account
+2015-09-02 15:08:39 | Exported 1 account records.
+2015-09-02 15:08:42 | Export finished for Crm2013Prod. Exported 1 records in 00:01:16.4
+2015-09-02 15:08:50 | Start importing data in Crm2015Dev
+2015-09-02 15:08:50 | Importing account records.
+2015-09-02 15:18:23 | Reference Data Transporter launched.
+2015-09-02 15:18:27 | Transportation Profile Test saved.
+2015-09-02 15:18:29 | Transportation Profile Test saved.
+2015-09-02 15:18:29 | Running Transportation Profile: Test
+2015-09-02 15:18:37 | Start exporting data from Crm2013Prod
+2015-09-02 15:18:37 | Exporting data for entity account
+2015-09-02 15:18:39 | Exported 1 account records.
+2015-09-02 15:18:40 | Export finished for Crm2013Prod. Exported 1 records in 00:00:03.2
+2015-09-02 15:18:45 | Start importing data in Crm2015Dev
+2015-09-02 15:18:45 | Importing account records.
+2015-09-02 15:20:32 | Treated 1 account records with 1 successfully imported records and 0 failures.
+2015-09-02 15:20:34 | Import finished for Crm2015Dev. Treated 1 records in 00:01:48.1. Successfuly imported 1 records and 0 failures.
+2015-09-02 15:31:49 | Reference Data Transporter launched.
+2015-09-02 15:31:54 | Transportation Profile Test saved.
+2015-09-02 15:31:54 | Running Transportation Profile: Test
+2015-09-02 15:32:01 | Start exporting data from Crm2013Prod
+2015-09-02 15:32:02 | Exporting data for entity account
+2015-09-02 15:32:04 | Exported 1 account records.
+2015-09-02 15:32:05 | Export finished for Crm2013Prod. Exported 1 records in 00:00:03.0
+2015-09-02 15:32:08 | Start importing data in Crm2015Dev
+2015-09-02 15:32:08 | Importing account records.
+2015-09-02 15:41:12 | Reference Data Transporter launched.
+2015-09-02 15:41:16 | Transportation Profile Test saved.
+2015-09-02 15:41:16 | Running Transportation Profile: Test
+2015-09-02 15:41:22 | Start exporting data from Crm2013Prod
+2015-09-02 15:41:22 | Exporting data for entity account
+2015-09-02 15:41:26 | Exported 1 account records.
+2015-09-02 15:41:27 | Export finished for Crm2013Prod. Exported 1 records in 00:00:04.9
+2015-09-02 15:41:32 | Start importing data in Crm2015Dev
+2015-09-02 15:41:32 | Importing account records.
+2015-09-02 15:42:12 | Treated 1 account records with 1 successfully imported records and 0 failures.
+2015-09-02 15:42:12 | Import finished for Crm2015Dev. Treated 1 records in 00:00:40.1. Successfuly imported 1 records and 0 failures.
+2015-09-02 15:44:04 | Reference Data Transporter launched.
+2015-09-02 15:44:08 | Transportation Profile Test saved.
+2015-09-02 15:44:08 | Running Transportation Profile: Test
+2015-09-02 15:44:14 | Start exporting data from Crm2013Prod
+2015-09-02 15:44:14 | Exporting data for entity account
+2015-09-02 15:44:17 | Exported 1 account records.
+2015-09-02 15:44:17 | Export finished for Crm2013Prod. Exported 1 records in 00:00:03.0
+2015-09-02 15:44:20 | Start importing data in Crm2015Dev
+2015-09-02 15:44:20 | Importing account records.
+2015-09-02 15:47:25 | Reference Data Transporter launched.
+2015-09-02 15:47:30 | Transportation Profile Test saved.
+2015-09-02 15:47:30 | Running Transportation Profile: Test
+2015-09-02 15:47:34 | Start exporting data from Crm2013Prod
+2015-09-02 15:47:34 | Exporting data for entity account
+2015-09-02 15:47:36 | Exported 1 account records.
+2015-09-02 15:47:37 | Export finished for Crm2013Prod. Exported 1 records in 00:00:02.7
+2015-09-02 15:47:41 | Start importing data in Crm2015Dev
+2015-09-02 15:47:41 | Importing account records.
+2015-09-02 15:48:20 | Treated 1 account records with 1 successfully imported records and 0 failures.
+2015-09-02 15:48:20 | Import finished for Crm2015Dev. Treated 1 records in 00:00:38.8. Successfuly imported 1 records and 0 failures.
+2015-09-02 15:54:04 | Transportation Profile Test saved.
+2015-09-02 15:54:04 | Running Transportation Profile: Test
+2015-09-02 15:54:08 | Start exporting data from Crm2013Prod
+2015-09-02 15:54:08 | Exporting data for entity account
+2015-09-02 15:54:09 | Exported 1 account records.
+2015-09-02 15:54:10 | Export finished for Crm2013Prod. Exported 1 records in 00:00:01.9
+2015-09-02 15:54:14 | Start importing data in Crm2015Dev
+2015-09-02 15:54:14 | Importing account records.
+2015-09-02 16:01:05 | Reference Data Transporter launched.
+2015-09-02 16:01:54 | Transportation Profile Test saved.
+2015-09-02 16:01:54 | Running Transportation Profile: Test
+2015-09-02 16:01:59 | Start exporting data from Crm2013Prod
+2015-09-02 16:01:59 | Exporting data for entity account
+2015-09-02 16:02:01 | Exported 1 account records.
+2015-09-02 16:02:03 | Export finished for Crm2013Prod. Exported 1 records in 00:00:04.3
+2015-09-02 16:02:07 | Start importing data in Crm2015Dev
+2015-09-02 16:02:07 | Importing account records.
+2015-09-02 16:05:00 | Reference Data Transporter launched.
+2015-09-02 16:05:04 | Transportation Profile Test saved.
+2015-09-02 16:05:04 | Running Transportation Profile: Test
+2015-09-02 16:05:12 | Start exporting data from Crm2013Prod
+2015-09-02 16:05:12 | Exporting data for entity account
+2015-09-02 16:05:14 | Exported 1 account records.
+2015-09-02 16:05:15 | Export finished for Crm2013Prod. Exported 1 records in 00:00:03.5
+2015-09-02 16:05:20 | Start importing data in Crm2015Dev
+2015-09-02 16:05:20 | Importing account records.
+2015-09-02 16:15:32 | Treated 1 account records with 1 successfully imported records and 0 failures.
+2015-09-02 16:15:32 | Import finished for Crm2015Dev. Treated 1 records in 00:10:12.1. Successfuly imported 1 records and 0 failures.
+2015-09-02 16:15:43 | Transportation Profile Test saved.
+2015-09-02 16:15:43 | Running Transportation Profile: Test
+2015-09-02 16:15:59 | Start exporting data from Crm2013Prod
+2015-09-02 16:16:02 | Exporting data for entity account
+2015-09-02 16:16:04 | Exported 1 account records.
+2015-09-02 16:16:05 | Export finished for Crm2013Prod. Exported 1 records in 00:00:06.2
+2015-09-02 16:16:09 | Start importing data in Crm2015Dev
+2015-09-02 16:16:09 | Importing account records.
+2015-09-02 17:59:04 | Reference Data Transporter launched.
+2015-09-02 17:59:08 | Transportation Profile Test saved.
+2015-09-02 17:59:08 | Running Transportation Profile: Test
+2015-09-02 19:27:53 | Reference Data Transporter launched.
+2015-09-02 19:27:57 | Transportation Profile Test saved.
+2015-09-02 19:29:50 | Transportation Profile Test saved.

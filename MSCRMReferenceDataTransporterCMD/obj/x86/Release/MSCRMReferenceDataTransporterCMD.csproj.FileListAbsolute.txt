@@ -1,0 +1,14 @@
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMReferenceDataTransporterCMD.exe.config
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMReferenceDataTransporterCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMReferenceDataTransporterCMD.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMTransportationProfilesManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\bin\Release\MSCRMTransportationProfilesManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\obj\x86\Release\MSCRMReferenceDataTransporterCMD.csprojResolveAssemblyReference.cache
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\obj\x86\Release\MSCRMReferenceDataTransporterCMD.exe
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMReferenceDataTransporterCMD\obj\x86\Release\MSCRMReferenceDataTransporterCMD.pdb

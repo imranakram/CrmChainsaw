@@ -1,0 +1,24 @@
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMAuditExportManager.XML
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMAuditExportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMAuditExportManager.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\LogManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\Microsoft.Xrm.Sdk.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMConnectionsManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMToolkit.Framework.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMToolkit.Framework.pdb
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMToolkit.Framework.xml
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\obj\Debug\MSCRMAuditExportManager.dll
+\\vmware-host\Shared Folders\Desktop\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\obj\Debug\MSCRMAuditExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMAuditExportManager.XML
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMAuditExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMAuditExportManager.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\LogManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMConnectionsManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMToolkit.Framework.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMToolkit.Framework.pdb
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\bin\Debug\MSCRMToolkit.Framework.xml
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\obj\Debug\MSCRMAuditExportManager.dll
+C:\Dev\mscrmtoolkit-35338\MSCRMToolKit\MSCRMAuditExportManager\obj\Debug\MSCRMAuditExportManager.pdb
